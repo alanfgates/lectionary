@@ -1,0 +1,2 @@
+# lectionary
+Daily Bible reading
