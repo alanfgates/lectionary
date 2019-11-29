@@ -26,14 +26,12 @@ import java.util.List;
  */
 public class Main {
 
-  public static int START_YEAR = 2015;
-  public static int MAX_YEAR = 2020;
+  static int START_YEAR = 2020;
 
   public static void main(String[] args) {
     if (args.length != 1) usage();
 
-    int year = Integer.valueOf(args[0]);
-    if (year < START_YEAR || year > MAX_YEAR) usage();
+    int year = Integer.parseInt(args[0]);
 
     Period advent = new Advent(year);
     Period epiphanyPlus = new EpiphanyThroughNormal(year);
@@ -43,7 +41,6 @@ public class Main {
 
   private static void usage() {
     System.out.println("Usage: lectionary <year>");
-    System.out.println("Year must be between 2015 and 2019");
     throw new RuntimeException();
   }
 

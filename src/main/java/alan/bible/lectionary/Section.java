@@ -29,7 +29,7 @@ class Section {
   private transient int chaptersRemaining;
 
   Section(List<Book> books, List<Integer> daysRead) {
-    this.books = books.toArray(new Book[books.size()]);
+    this.books = books.toArray(new Book[0]);
     this.daysRead = new HashSet<>(daysRead);
     chaptersRemaining = 0;
     currentBook = 0;

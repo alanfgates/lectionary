@@ -72,8 +72,8 @@ public class Advent extends Period {
 
   @Override
   protected void populateSections() {
-    sections.add(new Section(Arrays.asList(new Book("Isaiah", 66, 40)), Main.weekdays));
-    sections.add(new Section(Arrays.asList(new Book("Revelation", 22)), Main.weekdays));
+    if (year % 2 == 0) sections.add(new Section(Arrays.asList(new Book("Isaiah", 66, 40)), Main.weekdays));
+    else sections.add(new Section(Arrays.asList(new Book("Revelation", 22)), Main.weekdays));
   }
 
   /**
