@@ -19,7 +19,9 @@ package alan.bible.lectionary;
 
 import java.util.Arrays;
 import java.util.Calendar;
+import java.util.Collections;
 import java.util.GregorianCalendar;
+import java.util.List;
 
 public class Advent extends Period {
   private Calendar startOfAdvent;
@@ -27,6 +29,8 @@ public class Advent extends Period {
   public Advent(int year) {
     super(year);
   }
+
+  static List<Integer> adventReadingDays = Arrays.asList(Calendar.MONDAY, Calendar.TUESDAY, Calendar.WEDNESDAY, Calendar.FRIDAY);
 
   @Override
   protected Calendar begin() {
@@ -72,8 +76,23 @@ public class Advent extends Period {
 
   @Override
   protected void populateSections() {
-    if (year % 2 == 0) sections.add(new Section(Arrays.asList(new Book("Isaiah", 66, 40)), Main.weekdays));
-    else sections.add(new Section(Arrays.asList(new Book("Revelation", 22)), Main.weekdays));
+    switch (year % 4) {
+      case 0:
+        sections.add(new Section(Collections.singletonList(new Book("Isaiah", 53, 40)), adventReadingDays));
+        break;
+
+      case 1:
+        sections.add(new Section(Collections.singletonList(new Book("Revelation", 11)), adventReadingDays));
+        break;
+
+      case 2:
+        sections.add(new Section(Collections.singletonList(new Book("Isaiah", 66, 54)), adventReadingDays));
+        break;
+
+      case 3:
+        sections.add(new Section(Collections.singletonList(new Book("Revelation", 22, 12)), adventReadingDays));
+        break;
+    }
   }
 
   /**

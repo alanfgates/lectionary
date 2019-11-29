@@ -147,7 +147,7 @@ public class EpiphanyThroughNormal extends Period {
       Arrays.asList(Calendar.MONDAY, Calendar.TUESDAY, Calendar.WEDNESDAY, Calendar.THURSDAY)));
 
     List<Book> allBooks = interleave(getNtBooks(), getOtBooks());
-    sections.add(new Section(allBooks, Arrays.asList(Calendar.MONDAY, Calendar.WEDNESDAY, Calendar.FRIDAY)));
+    sections.add(new Section(allBooks, Main.readingDays));
   }
 
 

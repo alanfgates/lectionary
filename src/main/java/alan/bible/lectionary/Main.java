@@ -44,6 +44,5 @@ public class Main {
     throw new RuntimeException();
   }
 
-  static List<Integer> weekdays = Arrays.asList(Calendar.MONDAY, Calendar.TUESDAY,
-      Calendar.WEDNESDAY, Calendar.THURSDAY, Calendar.FRIDAY);
+  static List<Integer> readingDays = Arrays.asList(Calendar.MONDAY, Calendar.WEDNESDAY, Calendar.FRIDAY);
 }
