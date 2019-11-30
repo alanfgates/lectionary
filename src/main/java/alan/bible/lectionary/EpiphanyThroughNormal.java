@@ -24,24 +24,25 @@ import java.util.Calendar;
 import java.util.Collections;
 import java.util.Deque;
 import java.util.GregorianCalendar;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class EpiphanyThroughNormal extends Period {
   private Calendar end;
   private int length;
 
-  private Map<Integer, Calendar> easterDates;
+  //private Map<Integer, Calendar> easterDates;
 
   public EpiphanyThroughNormal(int year) {
     super(year);
 
     // TODO figure out how to calculate this automatically
+    /*
     easterDates = new HashMap<>();
     easterDates.put(2020, new GregorianCalendar(2020, Calendar.APRIL, 12));
     easterDates.put(2021, new GregorianCalendar(2021, Calendar.APRIL, 4));
     easterDates.put(2022, new GregorianCalendar(2022, Calendar.APRIL, 17));
+
+     */
   }
 
   @Override
@@ -87,7 +88,8 @@ public class EpiphanyThroughNormal extends Period {
         new GregorianCalendar(year, Calendar.JUNE, 24), year, "Luke 1:57-80"));
 
     // Dates fixed to easter
-    Calendar easter = easterDates.get(year);
+    //Calendar easter = easterDates.get(year);
+    Calendar easter = calculateEaster(year);
     if (easter == null) throw new RuntimeException("I don't know the date of easter in the year " + year);
     holidays.add(new Holiday("Easter",
         easter, year, "Matthew 28:1-15", "Mark 16:1-8", "Luke 24:1-49", "John 20"));
@@ -269,6 +271,26 @@ NT 1 Gospel + Acts 3 Paul 2 General + Revelation
     }
     // Gospels
     return books;
+  }
+
+  private Calendar calculateEaster(int year) {
+    // Taken from https://en.wikipedia.org/wiki/Computus#Anonymous_Gregorian_algorithm
+    int a = year % 19;
+    int b = year / 100;
+    int c = year % 100;
+    int d = b / 4;
+    int e = b % 4;
+    int f = (b + 8) / 25;
+    int g = (b - f + 1) / 3;
+    int h = (19 * a + b - d - g + 15) % 30;
+    int i = c / 4;
+    int k = c % 4;
+    int ell = (32 + 2 * e + 2 * i - h - k) % 7;
+    int m = (a + 11 * h + 22 * ell) / 451;
+    int month = (h + ell - 7 * m + 114) / 31;
+    int day = ((h + ell - 7 * m + 114) % 31) + 1;
+
+    return new GregorianCalendar(year, month - 1, day);
   }
 
   private <T> List<T> interleave(List<T> list1, List<T> list2) {

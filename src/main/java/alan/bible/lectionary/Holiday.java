@@ -48,6 +48,6 @@ class Holiday {
     else if (reading.length == 4) return reading[(year - Main.START_YEAR) % 4];
     else throw new RuntimeException("Help!");
     */
-    return reading[(year - Main.START_YEAR) % reading.length];
+    return reading[year % reading.length];
   }
 }

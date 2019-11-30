@@ -26,8 +26,6 @@ import java.util.List;
  */
 public class Main {
 
-  static int START_YEAR = 2020;
-
   public static void main(String[] args) {
     if (args.length != 1) usage();
 
