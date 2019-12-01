@@ -69,13 +69,11 @@ abstract class Period {
           todayIsAHoliday = true;
         }
       }
-      boolean somethingAdded = todayIsAHoliday;
       if (!todayIsAHoliday) {
         for (Section section : sections) {
           int weeksLeft = (length() - daysPassed) / 7;
           if (section.readToday(today, weeksLeft)) {
             output.append(section.todaysReading()).append(' ');
-            somethingAdded = true;
             if (section.doubleDip(today, weeksLeft)) {
               output.append(section.todaysReading()).append(' ');
             }
@@ -95,7 +93,7 @@ abstract class Period {
           } while (added);
         }
       }
-      if (somethingAdded) out.println(output.toString());
+      out.println(output.toString());
     }
   }
 
@@ -128,13 +126,15 @@ abstract class Period {
   abstract protected void populateSections();
 
   private StringBuilder stringDate(Calendar cal) {
-    return new StringBuilder(cal.get(Calendar.YEAR))
-        .append(' ')
-        .append(cal.getDisplayName(Calendar.MONTH, Calendar.LONG, Locale.getDefault()))
-        .append(' ')
-        .append(cal.get(Calendar.DAY_OF_MONTH))
+    StringBuilder buf = new StringBuilder();
+    if (cal.get(Calendar.DAY_OF_MONTH) == 1) {
+      buf.append(cal.getDisplayName(Calendar.MONTH, Calendar.LONG, Locale.getDefault()))
+          .append("\n");
+    }
+    buf.append(cal.get(Calendar.DAY_OF_MONTH))
         .append(", ")
-        .append(cal.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Locale.getDefault()))
+        .append(cal.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.SHORT, Locale.getDefault()))
         .append(' ');
+    return buf;
   }
 }
