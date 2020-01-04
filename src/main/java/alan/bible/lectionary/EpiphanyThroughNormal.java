@@ -78,11 +78,11 @@ class EpiphanyThroughNormal extends Period {
 
     Calendar holyTuesday = (Calendar)easter.clone();
     holyTuesday.add(Calendar.DATE, -5);
-    holidays.put(holyTuesday, new Holiday("Holy Tuesday", holyTuesday, calendar, "Mark 14:1-11", "John 14", "John 15"));
+    holidays.put(holyTuesday, new Holiday("Holy Tuesday", holyTuesday, calendar, "Mark 14:1-11", "John 14", "John 16"));
 
     Calendar holyWednesday = (Calendar)easter.clone();
     holyWednesday.add(Calendar.DATE, -4);
-    holidays.put(holyWednesday, new Holiday("Holy Wednesday", holyWednesday, calendar, "Luke 22:1-6", "John 16", "John 17"));
+    holidays.put(holyWednesday, new Holiday("Holy Wednesday", holyWednesday, calendar, "Luke 22:1-6", "John 15", "John 17"));
 
     Calendar maundyThursday = (Calendar)easter.clone();
     maundyThursday.add(Calendar.DATE, -3);

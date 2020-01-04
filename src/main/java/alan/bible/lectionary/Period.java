@@ -18,7 +18,6 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
@@ -90,7 +89,12 @@ abstract class Period {
       for (int i = 0; i < 7; i++) {
         Calendar today = (Calendar)firstDayOfCurrentWeek.clone();
         today.add(Calendar.DATE, i);
-        if (holidays.containsKey(today)) continue;
+        if (holidays.containsKey(today)) {
+          // If this holiday happens before we've cleared the remainder I need to bump up the remainder, or we'll miss a chapter later
+          // when we do the if (i < readingsPerDayRemainder)
+          if (i < readingsPerDayRemainder) readingsPerDayRemainder++;
+          continue;
+        }
         for (int j = 0; j < readingsPerDay; j++) {
           assert nextReading.hasNext();
           calendar.addReading(today, nextReading.next());
