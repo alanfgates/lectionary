@@ -1,8 +1,5 @@
-/**
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
+/*
+ * The author licenses this file
  * to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
@@ -17,13 +14,6 @@
  */
 package alan.bible.lectionary;
 
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.List;
-
-/**
- * Created by gates on 12/28/14.
- */
 public class Main {
 
   public static void main(String[] args) {
@@ -31,16 +21,16 @@ public class Main {
 
     int year = Integer.parseInt(args[0]);
 
-    Period advent = new Advent(year);
-    Period epiphanyPlus = new EpiphanyThroughNormal(year);
-    advent.determineReadings(System.out);
-    epiphanyPlus.determineReadings(System.out);
+    LiturgicalCalendar calendar = new LiturgicalCalendar(year);
+    Period advent = new Advent(calendar);
+    Period epiphanyPlus = new EpiphanyThroughNormal(calendar);
+    advent.determineReadings();
+    epiphanyPlus.determineReadings();
+    calendar.printReadings(System.out);
   }
 
   private static void usage() {
     System.out.println("Usage: lectionary <year>");
     throw new RuntimeException();
   }
-
-  static List<Integer> readingDays = Arrays.asList(Calendar.MONDAY, Calendar.WEDNESDAY, Calendar.FRIDAY);
 }

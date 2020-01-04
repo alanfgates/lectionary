@@ -1,8 +1,5 @@
-/**
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
+/*
+ * The author licenses this file
  * to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
@@ -19,143 +16,111 @@ package alan.bible.lectionary;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.Deque;
 import java.util.GregorianCalendar;
 import java.util.List;
 
-public class EpiphanyThroughNormal extends Period {
-  private Calendar end;
-  private int length;
+class EpiphanyThroughNormal extends Period {
 
-  //private Map<Integer, Calendar> easterDates;
-
-  public EpiphanyThroughNormal(int year) {
-    super(year);
-
-    // TODO figure out how to calculate this automatically
-    /*
-    easterDates = new HashMap<>();
-    easterDates.put(2020, new GregorianCalendar(2020, Calendar.APRIL, 12));
-    easterDates.put(2021, new GregorianCalendar(2021, Calendar.APRIL, 4));
-    easterDates.put(2022, new GregorianCalendar(2022, Calendar.APRIL, 17));
-
-     */
+  EpiphanyThroughNormal(LiturgicalCalendar calendar) {
+    super(calendar, 48);
   }
 
   @Override
-  protected Calendar begin() {
-    return new GregorianCalendar(year - 1, Calendar.DECEMBER, 25);
+  protected Calendar beginDate() {
+    return new GregorianCalendar(calendar.getYear() - 1, Calendar.DECEMBER, 25);
   }
 
   @Override
-  protected Calendar end() {
-    end = Advent.startOfAdvent(year + 1);
-    end.add(Calendar.DATE, -1);
-    return end;
-  }
-
-  @Override
-  protected int length() {
-    if (length == 0) {
-      // There must be a better way to do this
-      Calendar day = begin();
-      while (day.compareTo(end()) < 1) {
-        day.add(Calendar.DATE, 1);
-        length++;
-      }
-    }
-    return length;
+  protected Calendar endDate() {
+    return calendar.getLastDay();
   }
 
   @Override
   protected void populateHolidays() {
     // Dates fixed to the solar calendar
-    holidays.add(new Holiday("Christmas", begin(), year, "Matthew 1:18-25, Luke 2:1-20"));
-    holidays.add(new Holiday("Holy Innocents",
-      new GregorianCalendar(year - 1, Calendar.DECEMBER, 28), year, "Matthew 2:13-23"));
-    holidays.add(new Holiday("Epiphany",
-        new GregorianCalendar(year, Calendar.JANUARY, 6), year, "Matthew 2:1-12"));
-    holidays.add(new Holiday("Presentation",
-        new GregorianCalendar(year, Calendar.FEBRUARY, 2), year, "Luke 2:21-25"));
-    holidays.add(new Holiday("Annunciation",
-        new GregorianCalendar(year, Calendar.MARCH, 25), year, "Luke 1:26-38"));
-    holidays.add(new Holiday("Visitation",
-        new GregorianCalendar(year, Calendar.MAY, 31), year, "Luke 1:39-56"));
-    holidays.add(new Holiday("Nativity of John the Baptist",
-        new GregorianCalendar(year, Calendar.JUNE, 24), year, "Luke 1:57-80"));
+    holidays.put(beginDate(), new Holiday("Christmas", beginDate(), calendar, "Matthew 1:18-25, Luke 2:1-20"));
+    Calendar holyInnocents = new GregorianCalendar(calendar.getYear() - 1, Calendar.DECEMBER, 28);
+    holidays.put(holyInnocents, new Holiday("Holy Innocents", holyInnocents, calendar, "Matthew 2:13-23"));
+    Calendar epiphany = new GregorianCalendar(calendar.getYear(), Calendar.JANUARY, 6);
+    holidays.put(epiphany, new Holiday("Epiphany", epiphany, calendar, "Matthew 2:1-12"));
+    Calendar presentation = new GregorianCalendar(calendar.getYear(), Calendar.FEBRUARY, 2);
+    holidays.put(presentation, new Holiday("Presentation", presentation, calendar, "Luke 2:21-25"));
+    Calendar annunciation = new GregorianCalendar(calendar.getYear(), Calendar.MARCH, 25);
+    holidays.put(annunciation, new Holiday("Annunciation", annunciation, calendar, "Luke 1:26-38"));
+    Calendar visitation = new GregorianCalendar(calendar.getYear(), Calendar.MAY, 31);
+    holidays.put(visitation, new Holiday("Visitation", visitation, calendar, "Luke 1:39-56"));
+    Calendar nativityOfJohnB = new GregorianCalendar(calendar.getYear(), Calendar.JUNE, 24);
+    holidays.put(nativityOfJohnB, new Holiday("Nativity of John the Baptist", nativityOfJohnB, calendar, "Luke 1:57-80"));
 
     // Dates fixed to easter
     //Calendar easter = easterDates.get(year);
-    Calendar easter = calculateEaster(year);
-    if (easter == null) throw new RuntimeException("I don't know the date of easter in the year " + year);
-    holidays.add(new Holiday("Easter",
-        easter, year, "Matthew 28:1-15", "Mark 16:1-8", "Luke 24:1-49", "John 20"));
+    Calendar easter = calculateEaster(calendar.getYear());
+    holidays.put(easter, new Holiday("Easter", easter, calendar, "Matthew 28:1-15", "Mark 16:1-8", "Luke 24:1-49", "John 20"));
 
     Calendar ashWednesday = (Calendar)easter.clone();
     ashWednesday.add(Calendar.DATE, -46);
-    holidays.add(new Holiday("Ash Wednesday", ashWednesday, year,
+    holidays.put(ashWednesday, new Holiday("Ash Wednesday", ashWednesday, calendar,
         "Matthew 3:13-4:11", "Mark 1:9-13", "Luke 3:21,22, 4:1-13"));
 
     Calendar palmSunday = (Calendar)easter.clone();
     palmSunday.add(Calendar.DATE, -7);
-    holidays.add(new Holiday("Palm Sunday", palmSunday, year,
+    holidays.put(palmSunday, new Holiday("Palm Sunday", palmSunday, calendar,
         "Psalm 24, Zechariah 9, Matthew 21:1-9, John 12:12-19",
         "Psalm 24, Zechariah 9, Mark 11:1-10, John 12:12-19",
         "Psalm 24, Zechariah 9, Luke 19:28-48, John 12:12-19"));
 
     Calendar holyMonday = (Calendar)easter.clone();
     holyMonday.add(Calendar.DATE, -6);
-    holidays.add(new Holiday("Holy Monday", holyMonday, year, "Matthew 26:1-14", "John 12:20-13:38"));
+    holidays.put(holyMonday, new Holiday("Holy Monday", holyMonday, calendar, "Matthew 26:1-14", "John 12:20-13:38"));
 
     Calendar holyTuesday = (Calendar)easter.clone();
     holyTuesday.add(Calendar.DATE, -5);
-    holidays.add(new Holiday("Holy Tuesday", holyTuesday, year, "Mark 14:1-11", "John 14", "John 15"));
+    holidays.put(holyTuesday, new Holiday("Holy Tuesday", holyTuesday, calendar, "Mark 14:1-11", "John 14", "John 15"));
 
     Calendar holyWednesday = (Calendar)easter.clone();
     holyWednesday.add(Calendar.DATE, -4);
-    holidays.add(new Holiday("Holy Wednesday", holyWednesday, year, "Luke 22:1-6", "John 16", "John 17"));
+    holidays.put(holyWednesday, new Holiday("Holy Wednesday", holyWednesday, calendar, "Luke 22:1-6", "John 16", "John 17"));
 
     Calendar maundyThursday = (Calendar)easter.clone();
     maundyThursday.add(Calendar.DATE, -3);
-    holidays.add(new Holiday("Maundy Thursday", maundyThursday, year,
+    holidays.put(maundyThursday, new Holiday("Maundy Thursday", maundyThursday, calendar,
         "Matthew 26:17-75", "Mark 14:12-72", "Luke 22:7-62", "John 18"));
 
     Calendar goodFriday = (Calendar)easter.clone();
     goodFriday.add(Calendar.DATE, -2);
-    holidays.add(new Holiday("Good Friday", goodFriday, year,
+    holidays.put(goodFriday, new Holiday("Good Friday", goodFriday, calendar,
         "Matthew 27:1-61", "Mark 15:1-41", "Luke 22:63-23:56", "John 19"));
 
     Calendar holySaturday = (Calendar)easter.clone();
     holySaturday.add(Calendar.DATE, -1);
-    holidays.add(new Holiday("Holy Saturday", holySaturday, year, "Matthew 27:62-66", "Mark 15:42-47"));
+    holidays.put(holySaturday, new Holiday("Holy Saturday", holySaturday, calendar, "Matthew 27:62-66", "Mark 15:42-47"));
 
     Calendar ascensionDay = (Calendar)easter.clone();
     ascensionDay.add(Calendar.DATE, 39);
-    holidays.add(new Holiday("Ascension Day",
-        ascensionDay, year, "Matthew 28:16-20", "Luke 24:50-53", "Acts 1"));
+    holidays.put(ascensionDay, new Holiday("Ascension Day",
+        ascensionDay, calendar, "Matthew 28:16-20", "Luke 24:50-53", "Acts 1"));
 
     Calendar pentecost = (Calendar) easter.clone();
     pentecost.add(Calendar.DATE, 49);
-    holidays.add(new Holiday("Pentecost", pentecost, year, "Acts 2"));
+    holidays.put(pentecost, new Holiday("Pentecost", pentecost, calendar, "Acts 2"));
   }
 
   @Override
   protected void populateSections() {
     // Psalms
-    sections.add(new Section(Collections.singletonList(new Psalms()),
-      Arrays.asList(Calendar.MONDAY, Calendar.TUESDAY, Calendar.WEDNESDAY, Calendar.THURSDAY)));
+    sections.add(new Section(Collections.singletonList(new Psalms())));
 
     List<Book> allBooks = interleave(getNtBooks(), getOtBooks());
-    sections.add(new Section(allBooks, Main.readingDays));
+    sections.add(new Section(allBooks));
   }
 
 
   private List<Book> getOtBooks() {
     List <Book> books = new ArrayList<>();
-    switch (year % 8) {
+    switch (calendar.getYear() % 8) {
     case 0:
       books.add(new Book("Genesis", 50));
       books.add(new Book("Judges", 21));       // 71
@@ -228,7 +193,7 @@ NT 1 Gospel + Acts 3 Paul 2 General + Revelation
    */
   private List<Book> getNtBooks() {
     List <Book> books = new ArrayList<>();
-    switch (year % 4) {
+    switch (calendar.getYear() % 4) {
       case 0:
         books.add(new Book("Matthew", 28));
         books.add(new Book("Galatians", 6));      // 34

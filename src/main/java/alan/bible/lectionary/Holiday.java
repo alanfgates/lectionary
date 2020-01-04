@@ -1,8 +1,5 @@
-/**
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
+/*
+ * The author licenses this file
  * to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
@@ -23,13 +20,13 @@ class Holiday {
   private final String name;
   private final String[] reading;
   private final Calendar date;
-  private final int year;
+  private final LiturgicalCalendar calendar;
 
-  Holiday(String name, Calendar date, int year, String... reading) {
+  Holiday(String name, Calendar date, LiturgicalCalendar calendar, String... reading) {
     this.name = name;
     this.reading = reading;
     this.date = date;
-    this.year = year;
+    this.calendar = calendar;
   }
 
   public String getName() {
@@ -41,13 +38,6 @@ class Holiday {
   }
 
   String todaysReading() {
-    /*
-    if (reading.length == 1) return reading[0];
-    else if (reading.length == 2) return reading[(year - Main.START_YEAR) % 2];
-    else if (reading.length == 3) return reading[(year - Main.START_YEAR) % 3];
-    else if (reading.length == 4) return reading[(year - Main.START_YEAR) % 4];
-    else throw new RuntimeException("Help!");
-    */
-    return reading[year % reading.length];
+    return reading[calendar.getYear() % reading.length];
   }
 }

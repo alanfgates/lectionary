@@ -1,8 +1,5 @@
-/**
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
+/*
+ * The author licenses this file
  * to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
@@ -17,63 +14,65 @@
  */
 package alan.bible.lectionary;
 
-import java.util.Calendar;
-import java.util.HashSet;
+import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
+import java.util.Objects;
 
 class Section {
   private final Book[] books;
-  private final Set<Integer> daysRead;
+  private final int totalReadings;
   private int currentBook;
-  private transient int chaptersRemaining;
 
-  Section(List<Book> books, List<Integer> daysRead) {
+  Section(List<Book> books) {
     this.books = books.toArray(new Book[0]);
-    this.daysRead = new HashSet<>(daysRead);
-    chaptersRemaining = 0;
     currentBook = 0;
-    for (Book book : books) chaptersRemaining += book.getNumChapters();
-  }
+    int tmpTotalReadings = 0;
+    for (Book book : books) tmpTotalReadings += book.getNumChapters();
+    totalReadings = tmpTotalReadings;
 
-  boolean readToday(Calendar today, int weeksLeftInPeriod) {
-    if (today.get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY) {
-      // Only return true if we're behind schedule and need to make up time.
-      return chaptersRemaining / daysRead.size() >= weeksLeftInPeriod;
+    /*
+    int baseReadingsPerWeek = totalReadings / numWeeks;
+    int readingsPerWeekRemainder = totalReadings % numWeeks;
 
-    } else {
-      return (daysRead.contains(today.get(Calendar.DAY_OF_WEEK)));
+    readings = new HashMap<>(numWeeks);
+    for (int i = 0; i < numWeeks; i++) {
+      int numReadingsThisWeek = baseReadingsPerWeek + (i > readingsPerWeekRemainder ? 0 : 1);
+      List<String> thisWeeksReadings = new ArrayList<>(numReadingsThisWeek);
+      for (int j = 0; j < numReadingsThisWeek; j++) thisWeeksReadings.add(getNextReading());
+      readings.put(i, thisWeeksReadings);
     }
+    */
+
   }
 
-  /**
-   * For advent reading a single extra on Saturdays won't help us out.  In that case, read a second
-   * time on Saturday.
-   * @param weeksLeftInPeriod weeks left in this period
-   * @return whether we should read another chapter.
-   */
-  boolean doubleDip(Calendar today, int weeksLeftInPeriod) {
-    if (today.get(Calendar.DAY_OF_WEEK) == Calendar.SATURDAY) {
-      return chaptersRemaining / (daysRead.size() + 1) >= weeksLeftInPeriod;
-    }
-    return false;
+  int getTotalReadings() {
+    return totalReadings;
   }
 
-  /**
-   * Get today's reading.  Assumes you've already called {@link #readToday} and gotten a true.
-   * @return A StringBuilder containing the reading from this section for today.
-   */
-  StringBuilder todaysReading() {
+  String getNextReading() {
     while (currentBook < books.length) {
       if (books[currentBook].hasNextChapter()) {
-        chaptersRemaining--;
-        return new StringBuilder(books[currentBook].getName())
-            .append(' ')
-            .append(books[currentBook].getNextChapter());
+        return books[currentBook].getName() + " " + books[currentBook].getNextChapter();
       } else {
         currentBook++;
       }
     }
-    return new StringBuilder();
+    return "";
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) return true;
+    if (o == null || getClass() != o.getClass()) return false;
+    Section section = (Section) o;
+    return totalReadings == section.totalReadings &&
+        Arrays.equals(books, section.books);
+  }
+
+  @Override
+  public int hashCode() {
+    int result = Objects.hash(totalReadings);
+    result = 31 * result + Arrays.hashCode(books);
+    return result;
   }
 }

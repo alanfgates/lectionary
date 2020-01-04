@@ -1,8 +1,5 @@
-/**
- * Licensed to the Apache Software Foundation (ASF) under one
- * or more contributor license agreements.  See the NOTICE file
- * distributed with this work for additional information
- * regarding copyright ownership.  The ASF licenses this file
+/*
+ * The author licenses this file
  * to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
@@ -17,20 +14,23 @@
  */
 package alan.bible.lectionary;
 
-import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
-import java.util.Locale;
+import java.util.Map;
 
 abstract class Period {
 
-  protected final int year;
+  protected final LiturgicalCalendar calendar;
+  private final int numWeeks;
 
   /**
-   * Holidays in this period, must be filled out by the subclass.
+   * Holidays in this period, must be filled out by the subclass.  The key is the date of the holiday.
    */
-  protected List<Holiday> holidays;
+  protected Map<Calendar, Holiday> holidays;
 
   /**
    * Sections in this period, must be filled out by the subclass.
@@ -38,62 +38,69 @@ abstract class Period {
   protected List<Section> sections;
 
   /**
-   * @param year year we are working with, note that this is the year easter happens in, not the
-   *             year Christmas happens in
+   * @param calendar liturgical calendar for this year
+   * @param numWeeks number of weeks in this period.
    */
-  Period(int year) {
-    this.year = year;
-    holidays = new ArrayList<>();
+  Period(LiturgicalCalendar calendar, int numWeeks) {
+    this.calendar = calendar;
+    this.numWeeks = numWeeks;
+    holidays = new HashMap<>();
     sections = new ArrayList<>();
   }
 
   /**
    * Find the readings for this Period
-   * @param out PrintStream to send information to
    */
-  final void determineReadings(PrintStream out) {
+  final void determineReadings() {
     populateHolidays();
+    // Put each holiday on the calendar
+    for (Map.Entry<Calendar, Holiday> entry : holidays.entrySet()) {
+      calendar.addReading(entry.getKey(), entry.getValue().todaysReading());
+    }
+
     populateSections();
 
-    int daysPassed = 0;
-    for (Calendar today = begin(); today.compareTo(end()) <= 0;
-         today.add(Calendar.DATE, 1), daysPassed++) {
-      StringBuilder output = stringDate(today);
-      boolean todayIsAHoliday = false;
-      for (Holiday holiday : holidays) {
-        if (holiday.readToday(today)) {
-          output.append(holiday.getName())
-              .append(' ')
-              .append(holiday.todaysReading())
-              .append(' ');
-          todayIsAHoliday = true;
+    Calendar firstDay = beginDate();
+
+    for (int weekNum = 0; weekNum < numWeeks; weekNum++) {
+      Calendar firstDayOfCurrentWeek = (Calendar)firstDay.clone();
+      firstDayOfCurrentWeek.add(Calendar.DATE, 7 * weekNum);
+
+      // Keep them separated by section so I can interleave them.
+      List<List<String>> readings = new ArrayList<>();
+      for (Section section : sections) readings.add(getThisWeeksReadings(section, weekNum));
+
+      // Figure out how many total readings we need to do this week.
+      int totalReadings = 0;
+      for (List<String> r : readings) totalReadings += r.size();
+
+      // If we have any holidays this week, subtract that day from number of days in the week, as those will already have readings
+      int daysThisWeek = 7;
+      for (int i = 0; i < 7; i++) {
+        Calendar today = (Calendar)firstDayOfCurrentWeek.clone();
+        today.add(Calendar.DATE, i);
+        if (holidays.containsKey(today)) daysThisWeek--;
+      }
+
+      int readingsPerDay = totalReadings / daysThisWeek;
+      int readingsPerDayRemainder = totalReadings % daysThisWeek;
+
+      InterleavingIterator<String> nextReading = new InterleavingIterator<>(readings);
+      // Assign the readings to days
+      for (int i = 0; i < 7; i++) {
+        Calendar today = (Calendar)firstDayOfCurrentWeek.clone();
+        today.add(Calendar.DATE, i);
+        if (holidays.containsKey(today)) continue;
+        for (int j = 0; j < readingsPerDay; j++) {
+          assert nextReading.hasNext();
+          calendar.addReading(today, nextReading.next());
+        }
+        if (i < readingsPerDayRemainder) {
+          assert nextReading.hasNext();
+          calendar.addReading(today, nextReading.next());
         }
       }
-      if (!todayIsAHoliday) {
-        for (Section section : sections) {
-          int weeksLeft = (length() - daysPassed) / 7;
-          if (section.readToday(today, weeksLeft)) {
-            output.append(section.todaysReading()).append(' ');
-            if (section.doubleDip(today, weeksLeft)) {
-              output.append(section.todaysReading()).append(' ');
-            }
-          }
-        }
-      }
-      if (today.compareTo(end()) == 0) {
-        // It's the last day, get any unread-reading handled
-        for (Section section : sections) {
-          boolean added;
-          do {
-            StringBuilder tmp = section.todaysReading();
-            if (tmp.length() > 0) added = true;
-            else added = false;
-            output.append(tmp)
-              .append(' ');
-          } while (added);
-        }
-      }
-      out.println(output.toString());
+      assert !nextReading.hasNext();
     }
   }
 
@@ -101,19 +108,13 @@ abstract class Period {
    * Get the day the period begins on
    * @return begin day
    */
-  abstract protected Calendar begin();
+  abstract protected Calendar beginDate();
 
   /**
    * Get the day the period ends on
    * @return end
    */
-  abstract protected Calendar end();
-
-  /**
-   * Number of days in the period
-   * @return days
-   */
-  abstract protected int length();
+  abstract protected Calendar endDate();
 
   /**
    * Fill out the Holidays list.
@@ -125,16 +126,45 @@ abstract class Period {
    */
   abstract protected void populateSections();
 
-  private StringBuilder stringDate(Calendar cal) {
-    StringBuilder buf = new StringBuilder();
-    if (cal.get(Calendar.DAY_OF_MONTH) == 1) {
-      buf.append(cal.getDisplayName(Calendar.MONTH, Calendar.LONG, Locale.getDefault()))
-          .append("\n");
-    }
-    buf.append(cal.get(Calendar.DAY_OF_MONTH))
-        .append(", ")
-        .append(cal.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.SHORT, Locale.getDefault()))
-        .append(' ');
-    return buf;
+  private List<String> getThisWeeksReadings(Section section, int weekNum) {
+    int baseReadingsPerWeek = section.getTotalReadings() / numWeeks;
+    int readingsPerWeekRemainder = section.getTotalReadings() % numWeeks;
+    int numReadingsThisWeek = baseReadingsPerWeek + (weekNum > readingsPerWeekRemainder ? 0 : 1);
+    List<String> thisWeeksReadings = new ArrayList<>(numReadingsThisWeek);
+    for (int i = 0; i < numReadingsThisWeek; i++) thisWeeksReadings.add(section.getNextReading());
+    return thisWeeksReadings;
   }
+
+  private static class InterleavingIterator<T> implements Iterator<T> {
+    private List<Iterator<T>> iters;
+    private int nextToRead;
+
+
+    InterleavingIterator(List<List<T>> lists) {
+      iters = new ArrayList<>();
+      for (List<T> inner : lists) iters.add(inner.iterator());
+      nextToRead = 0;
+    }
+
+    @Override
+    public boolean hasNext() {
+      for (Iterator<T> iter : iters) if (iter.hasNext()) return true;
+      return false;
+    }
+
+    @Override
+    public T next() {
+      if (!hasNext()) return null;
+      while (!iters.get(nextToRead).hasNext()) incrementNextToRead();
+      T tmp = iters.get(nextToRead).next();
+      incrementNextToRead();
+      return tmp;
+    }
+
+    private void incrementNextToRead() {
+      nextToRead++;
+      if (nextToRead >= iters.size()) nextToRead = 0;
+    }
+  }
+
 }
