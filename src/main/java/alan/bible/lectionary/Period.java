@@ -14,8 +14,10 @@
  */
 package alan.bible.lectionary;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Deque;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -24,7 +26,7 @@ import java.util.Map;
 abstract class Period {
 
   protected final LiturgicalCalendar calendar;
-  private final int numWeeks;
+  protected int numWeeks;
 
   /**
    * Holidays in this period, must be filled out by the subclass.  The key is the date of the holiday.
@@ -37,6 +39,15 @@ abstract class Period {
   protected List<Section> sections;
 
   /**
+   * Constructor for use when length of period is not fixed (epiphany, pentacost)
+   * @param calendar liturgical calendar for this year.
+   */
+  Period(LiturgicalCalendar calendar) {
+    this(calendar, 0);
+  }
+
+  /**
+   * Constructor for use when length of period is fixed (advent, easter)
    * @param calendar liturgical calendar for this year
    * @param numWeeks number of weeks in this period.
    */
@@ -51,6 +62,7 @@ abstract class Period {
    * Find the readings for this Period
    */
   final void determineReadings() {
+    calculateNumWeeks();
     populateHolidays();
     // Put each holiday on the calendar
     for (Map.Entry<Calendar, Holiday> entry : holidays.entrySet()) {
@@ -59,52 +71,54 @@ abstract class Period {
 
     populateSections();
 
-    Calendar firstDay = beginDate();
+    if (sections.size() > 0) {
+      Calendar firstDay = beginDate();
 
-    for (int weekNum = 0; weekNum < numWeeks; weekNum++) {
-      Calendar firstDayOfCurrentWeek = (Calendar)firstDay.clone();
-      firstDayOfCurrentWeek.add(Calendar.DATE, 7 * weekNum);
+      for (int weekNum = 0; weekNum < numWeeks; weekNum++) {
+        Calendar firstDayOfCurrentWeek = (Calendar) firstDay.clone();
+        firstDayOfCurrentWeek.add(Calendar.DATE, 7 * weekNum);
 
-      // Keep them separated by section so I can interleave them.
-      List<List<String>> readings = new ArrayList<>();
-      for (Section section : sections) readings.add(getThisWeeksReadings(section, weekNum));
+        // Keep them separated by section so I can interleave them.
+        List<List<String>> readings = new ArrayList<>();
+        for (Section section : sections) readings.add(getThisWeeksReadings(section, weekNum));
 
-      // Figure out how many total readings we need to do this week.
-      int totalReadings = 0;
-      for (List<String> r : readings) totalReadings += r.size();
+        // Figure out how many total readings we need to do this week.
+        int totalReadings = 0;
+        for (List<String> r : readings) totalReadings += r.size();
 
-      // If we have any holidays this week, subtract that day from number of days in the week, as those will already have readings
-      int daysThisWeek = 7;
-      for (int i = 0; i < 7; i++) {
-        Calendar today = (Calendar)firstDayOfCurrentWeek.clone();
-        today.add(Calendar.DATE, i);
-        if (holidays.containsKey(today)) daysThisWeek--;
+        // If we have any holidays this week, subtract that day from number of days in the week, as those will already have readings
+        int daysThisWeek = 7;
+        for (int i = 0; i < 7; i++) {
+          Calendar today = (Calendar) firstDayOfCurrentWeek.clone();
+          today.add(Calendar.DATE, i);
+          if (holidays.containsKey(today)) daysThisWeek--;
+        }
+
+        int readingsPerDay = totalReadings / daysThisWeek;
+        int readingsPerDayRemainder = totalReadings % daysThisWeek;
+
+        InterleavingIterator<String> nextReading = new InterleavingIterator<>(readings);
+        // Assign the readings to days
+        for (int i = 0; i < 7; i++) {
+          Calendar today = (Calendar) firstDayOfCurrentWeek.clone();
+          today.add(Calendar.DATE, i);
+          if (holidays.containsKey(today)) {
+            // If this holiday happens before we've cleared the remainder I need to bump up the remainder, or we'll miss a chapter later
+            // when we do the if (i < readingsPerDayRemainder)
+            if (i < readingsPerDayRemainder) readingsPerDayRemainder++;
+            continue;
+          }
+          for (int j = 0; j < readingsPerDay; j++) {
+            assert nextReading.hasNext();
+            calendar.addReading(today, nextReading.next());
+          }
+          if (i < readingsPerDayRemainder) {
+            assert nextReading.hasNext();
+            calendar.addReading(today, nextReading.next());
+          }
+        }
+        assert !nextReading.hasNext();
       }
-
-      int readingsPerDay = totalReadings / daysThisWeek;
-      int readingsPerDayRemainder = totalReadings % daysThisWeek;
-
-      InterleavingIterator<String> nextReading = new InterleavingIterator<>(readings);
-      // Assign the readings to days
-      for (int i = 0; i < 7; i++) {
-        Calendar today = (Calendar)firstDayOfCurrentWeek.clone();
-        today.add(Calendar.DATE, i);
-        if (holidays.containsKey(today)) {
-          // If this holiday happens before we've cleared the remainder I need to bump up the remainder, or we'll miss a chapter later
-          // when we do the if (i < readingsPerDayRemainder)
-          if (i < readingsPerDayRemainder) readingsPerDayRemainder++;
-          continue;
-        }
-        for (int j = 0; j < readingsPerDay; j++) {
-          assert nextReading.hasNext();
-          calendar.addReading(today, nextReading.next());
-        }
-        if (i < readingsPerDayRemainder) {
-          assert nextReading.hasNext();
-          calendar.addReading(today, nextReading.next());
-        }
-      }
-      assert !nextReading.hasNext();
     }
   }
 
@@ -129,6 +143,24 @@ abstract class Period {
    * Fill out the sections list
    */
   abstract protected void populateSections();
+
+  protected <T> List<T> interleave(List<T> list1, List<T> list2) {
+    List<T> result = new ArrayList<>(list1.size() + list2.size());
+    Deque<T> list1Copy = new ArrayDeque<>(list1);
+    Deque<T> list2Copy = new ArrayDeque<>(list2);
+    while (!list1Copy.isEmpty() && !list2Copy.isEmpty()) {
+      result.add(list1Copy.remove());
+      result.add(list2Copy.remove());
+    }
+    // pick up whatever remains
+    result.addAll(list1Copy);
+    result.addAll(list2Copy);
+    return result;
+  }
+
+  protected void calculateNumWeeks() {
+    assert numWeeks != 0;
+  }
 
   private List<String> getThisWeeksReadings(Section section, int weekNum) {
     int baseReadingsPerWeek = section.getTotalReadings() / numWeeks;
@@ -170,5 +202,6 @@ abstract class Period {
       if (nextToRead >= iters.size()) nextToRead = 0;
     }
   }
+
 
 }

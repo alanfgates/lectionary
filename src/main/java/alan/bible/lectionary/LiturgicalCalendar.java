@@ -87,7 +87,7 @@ class LiturgicalCalendar {
     return startOfAdvent;
   }
 
-  private StringBuilder stringDate(Calendar cal) {
+  static StringBuilder stringDate(Calendar cal) {
     StringBuilder buf = new StringBuilder();
     if (cal.get(Calendar.DAY_OF_MONTH) == 1) {
       buf.append(cal.getDisplayName(Calendar.MONTH, Calendar.LONG, Locale.getDefault()))

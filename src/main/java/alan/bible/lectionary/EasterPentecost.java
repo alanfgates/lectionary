@@ -14,23 +14,21 @@
  */
 package alan.bible.lectionary;
 
-import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
-import java.util.Deque;
 import java.util.GregorianCalendar;
 import java.util.List;
 
-class EpiphanyThroughNormal extends Period {
+class EasterPentecost extends Period {
 
-  EpiphanyThroughNormal(LiturgicalCalendar calendar) {
-    super(calendar, 48);
+  EasterPentecost(LiturgicalCalendar calendar) {
+    super(calendar);
   }
 
   @Override
   protected Calendar beginDate() {
-    return new GregorianCalendar(calendar.getYear() - 1, Calendar.DECEMBER, 25);
+    return calculateEaster(calendar.getYear());
   }
 
   @Override
@@ -41,62 +39,16 @@ class EpiphanyThroughNormal extends Period {
   @Override
   protected void populateHolidays() {
     // Dates fixed to the solar calendar
-    holidays.put(beginDate(), new Holiday("Christmas", beginDate(), calendar, "Matthew 1:18-25, Luke 2:1-20"));
-    Calendar holyInnocents = new GregorianCalendar(calendar.getYear() - 1, Calendar.DECEMBER, 28);
-    holidays.put(holyInnocents, new Holiday("Holy Innocents", holyInnocents, calendar, "Matthew 2:13-23"));
-    Calendar epiphany = new GregorianCalendar(calendar.getYear(), Calendar.JANUARY, 6);
-    holidays.put(epiphany, new Holiday("Epiphany", epiphany, calendar, "Matthew 2:1-12"));
-    Calendar presentation = new GregorianCalendar(calendar.getYear(), Calendar.FEBRUARY, 2);
-    holidays.put(presentation, new Holiday("Presentation", presentation, calendar, "Luke 2:21-25"));
     Calendar annunciation = new GregorianCalendar(calendar.getYear(), Calendar.MARCH, 25);
-    holidays.put(annunciation, new Holiday("Annunciation", annunciation, calendar, "Luke 1:26-38"));
+    if (annunciation.compareTo(beginDate()) > 0) holidays.put(annunciation, new Holiday("Annunciation", annunciation, calendar, "Luke 1:26-38"));
     Calendar visitation = new GregorianCalendar(calendar.getYear(), Calendar.MAY, 31);
     holidays.put(visitation, new Holiday("Visitation", visitation, calendar, "Luke 1:39-56"));
     Calendar nativityOfJohnB = new GregorianCalendar(calendar.getYear(), Calendar.JUNE, 24);
     holidays.put(nativityOfJohnB, new Holiday("Nativity of John the Baptist", nativityOfJohnB, calendar, "Luke 1:57-80"));
 
     // Dates fixed to easter
-    //Calendar easter = easterDates.get(year);
-    Calendar easter = calculateEaster(calendar.getYear());
+    Calendar easter = beginDate();
     holidays.put(easter, new Holiday("Easter", easter, calendar, "Matthew 28:1-15", "Mark 16:1-8", "Luke 24:1-49", "John 20"));
-
-    Calendar ashWednesday = (Calendar)easter.clone();
-    ashWednesday.add(Calendar.DATE, -46);
-    holidays.put(ashWednesday, new Holiday("Ash Wednesday", ashWednesday, calendar,
-        "Matthew 3:13-4:11", "Mark 1:9-13", "Luke 3:21,22, 4:1-13"));
-
-    Calendar palmSunday = (Calendar)easter.clone();
-    palmSunday.add(Calendar.DATE, -7);
-    holidays.put(palmSunday, new Holiday("Palm Sunday", palmSunday, calendar,
-        "Psalm 24, Zechariah 9, Matthew 21:1-9, John 12:12-19",
-        "Psalm 24, Zechariah 9, Mark 11:1-10, John 12:12-19",
-        "Psalm 24, Zechariah 9, Luke 19:28-48, John 12:12-19"));
-
-    Calendar holyMonday = (Calendar)easter.clone();
-    holyMonday.add(Calendar.DATE, -6);
-    holidays.put(holyMonday, new Holiday("Holy Monday", holyMonday, calendar, "Matthew 26:1-14", "John 12:20-13:38"));
-
-    Calendar holyTuesday = (Calendar)easter.clone();
-    holyTuesday.add(Calendar.DATE, -5);
-    holidays.put(holyTuesday, new Holiday("Holy Tuesday", holyTuesday, calendar, "Mark 14:1-11", "John 14", "John 16"));
-
-    Calendar holyWednesday = (Calendar)easter.clone();
-    holyWednesday.add(Calendar.DATE, -4);
-    holidays.put(holyWednesday, new Holiday("Holy Wednesday", holyWednesday, calendar, "Luke 22:1-6", "John 15", "John 17"));
-
-    Calendar maundyThursday = (Calendar)easter.clone();
-    maundyThursday.add(Calendar.DATE, -3);
-    holidays.put(maundyThursday, new Holiday("Maundy Thursday", maundyThursday, calendar,
-        "Matthew 26:17-75", "Mark 14:12-72", "Luke 22:7-62", "John 18"));
-
-    Calendar goodFriday = (Calendar)easter.clone();
-    goodFriday.add(Calendar.DATE, -2);
-    holidays.put(goodFriday, new Holiday("Good Friday", goodFriday, calendar,
-        "Matthew 27:1-61", "Mark 15:1-41", "Luke 22:63-23:56", "John 19"));
-
-    Calendar holySaturday = (Calendar)easter.clone();
-    holySaturday.add(Calendar.DATE, -1);
-    holidays.put(holySaturday, new Holiday("Holy Saturday", holySaturday, calendar, "Matthew 27:62-66", "Mark 15:42-47"));
 
     Calendar ascensionDay = (Calendar)easter.clone();
     ascensionDay.add(Calendar.DATE, 39);
@@ -111,10 +63,16 @@ class EpiphanyThroughNormal extends Period {
   @Override
   protected void populateSections() {
     // Psalms
-    sections.add(new Section(Collections.singletonList(new Psalms())));
+    sections.add(new Section(Collections.singletonList(new PsalmsPartTwo())));
 
-    List<Book> allBooks = interleave(getNtBooks(), getOtBooks());
+    List<Book> allBooks = interleave(getOtBooks(), getNtBooks());
     sections.add(new Section(allBooks));
+  }
+
+  @Override
+  protected void calculateNumWeeks() {
+    numWeeks = endDate().get(Calendar.WEEK_OF_YEAR) - beginDate().get(Calendar.WEEK_OF_YEAR) + 1;
+        //(endDate().get(Calendar.DAY_OF_WEEK) == beginDate().get(Calendar.DAY_OF_WEEK) ? 0 : 1);
   }
 
 
@@ -122,7 +80,7 @@ class EpiphanyThroughNormal extends Period {
     List <Book> books = new ArrayList<>();
     switch (calendar.getYear() % 8) {
     case 0:
-      books.add(new Book("Genesis", 50));
+      books.add(new Book("Genesis", 50, 26));
       books.add(new Book("Judges", 21));       // 71
       books.add(new Book("Ruth", 4));          // 75
       books.add(new Book("Zechariah", 14));    // 89
@@ -131,14 +89,14 @@ class EpiphanyThroughNormal extends Period {
       break;
 
     case 1:
+      books.add(new Book("Ezekiel", 48, 26));      // 72
       books.add(new Book("Joshua", 24));
-      books.add(new Book("Ezekiel", 48));      // 72
       books.add(new Book("Ecclesiastes", 12)); // 84
       books.add(new Book("Amos", 9));          // 93
       break;
 
     case 2:
-      books.add(new Book("Exodus", 40));
+      books.add(new Book("Exodus", 40, 26));
       books.add(new Book("Ezra", 10));         // 50
       books.add(new Book("Nehemiah", 13));     // 63
       books.add(new Book("Song of Songs", 8)); // 71
@@ -149,13 +107,12 @@ class EpiphanyThroughNormal extends Period {
       break;
 
     case 3:
-      books.add(new Book("1 Samuel", 31));
+      books.add(new Book("1 Samuel", 31, 26));
       books.add(new Book("2 Samuel", 24));     // 55
       books.add(new Book("Isaiah", 39));       // 94
       break;
 
     case 4:
-      books.add(new Book("Leviticus", 27));
       books.add(new Book("1 Kings", 22));      // 49
       books.add(new Book("2 Kings", 25));      // 74
       books.add(new Book("Hosea", 14));        // 88
@@ -164,21 +121,19 @@ class EpiphanyThroughNormal extends Period {
       break;
 
     case 5:
-      books.add(new Book("Deuteronomy", 34));
+      books.add(new Book("Deuteronomy", 34, 26));
       books.add(new Book("Esther", 10));       // 44
       books.add(new Book("Job", 42));          // 86
       books.add(new Book("Micah", 7));         // 93
-
       break;
 
     case 6:
-      books.add(new Book("Numbers", 36));
+      books.add(new Book("Numbers", 36, 26));
       books.add(new Book("Jeremiah", 52));     // 88
       books.add(new Book("Lamentations", 5));  // 93
       break;
 
     case 7:
-      books.add(new Book("1 Chronicles", 29));
       books.add(new Book("2 Chronicles", 36)); // 65
       books.add(new Book("Proverbs", 31));     // 96
 
@@ -195,7 +150,6 @@ NT 1 Gospel + Acts 3 Paul 2 General + Revelation
     List <Book> books = new ArrayList<>();
     switch (calendar.getYear() % 4) {
       case 0:
-        books.add(new Book("Matthew", 28));
         books.add(new Book("Galatians", 6));      // 34
         books.add(new Book("Ephesians", 6));      // 40
         books.add(new Book("1 Timothy", 6));      // 46
@@ -204,7 +158,6 @@ NT 1 Gospel + Acts 3 Paul 2 General + Revelation
         break;
 
       case 1:
-        books.add(new Book("Mark", 16));
         books.add(new Book("Acts", 28));           // 44
         books.add(new Book("2 Timothy", 4));       // 48
         books.add(new Book("Titus", 3));           // 51
@@ -214,16 +167,13 @@ NT 1 Gospel + Acts 3 Paul 2 General + Revelation
         break;
 
       case 2:
-        books.add(new Book("Luke", 24));
         books.add(new Book("1 Corinthians", 16));  // 40
         books.add( new Book("2 Corinthians", 13)); // 53
         books.add(new Book("Philippians", 4));     // 57
         books.add(new Book("2 Peter", 3));         // 60
-
         break;
 
       case 3:
-        books.add(new Book("John", 21));
         books.add(new Book("Romans", 16));         // 37
         books.add(new Book("Colossians", 4));      // 41
         books.add(new Book("1 Thessalonians", 5)); // 46
@@ -231,7 +181,6 @@ NT 1 Gospel + Acts 3 Paul 2 General + Revelation
         books.add(new Book("Philemon", 1));        // 50
         books.add(new Book("James", 5));           // 55
         books.add(new Book("1 John", 5));          // 60
-
         break;
     }
     // Gospels
@@ -256,19 +205,5 @@ NT 1 Gospel + Acts 3 Paul 2 General + Revelation
     int day = ((h + ell - 7 * m + 114) % 31) + 1;
 
     return new GregorianCalendar(year, month - 1, day);
-  }
-
-  private <T> List<T> interleave(List<T> list1, List<T> list2) {
-    List<T> result = new ArrayList<>(list1.size() + list2.size());
-    Deque<T> list1Copy = new ArrayDeque<>(list1);
-    Deque<T> list2Copy = new ArrayDeque<>(list2);
-    while (!list1Copy.isEmpty() && !list2Copy.isEmpty()) {
-      result.add(list1Copy.remove());
-      result.add(list2Copy.remove());
-    }
-    // pick up whatever remains
-    result.addAll(list1Copy);
-    result.addAll(list2Copy);
-    return result;
   }
 }

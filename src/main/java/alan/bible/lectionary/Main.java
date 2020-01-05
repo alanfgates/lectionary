@@ -14,6 +14,9 @@
  */
 package alan.bible.lectionary;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
   public static void main(String[] args) {
@@ -22,10 +25,14 @@ public class Main {
     int year = Integer.parseInt(args[0]);
 
     LiturgicalCalendar calendar = new LiturgicalCalendar(year);
-    Period advent = new Advent(calendar);
-    Period epiphanyPlus = new EpiphanyThroughNormal(calendar);
-    advent.determineReadings();
-    epiphanyPlus.determineReadings();
+    List<Period> periods = new ArrayList<>();
+    EasterPentecost easter = new EasterPentecost(calendar);
+    periods.add(easter);
+    HolyWeek holyWeek = new HolyWeek(calendar, easter);
+    periods.add(holyWeek);
+    periods.add(new Advent(calendar));
+    periods.add(new ChristmasEpiphanyLent(calendar, holyWeek));
+    for (Period period : periods) period.determineReadings();
     calendar.printReadings(System.out);
   }
 

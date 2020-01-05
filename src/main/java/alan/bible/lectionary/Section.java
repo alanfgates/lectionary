@@ -29,20 +29,6 @@ class Section {
     int tmpTotalReadings = 0;
     for (Book book : books) tmpTotalReadings += book.getNumChapters();
     totalReadings = tmpTotalReadings;
-
-    /*
-    int baseReadingsPerWeek = totalReadings / numWeeks;
-    int readingsPerWeekRemainder = totalReadings % numWeeks;
-
-    readings = new HashMap<>(numWeeks);
-    for (int i = 0; i < numWeeks; i++) {
-      int numReadingsThisWeek = baseReadingsPerWeek + (i > readingsPerWeekRemainder ? 0 : 1);
-      List<String> thisWeeksReadings = new ArrayList<>(numReadingsThisWeek);
-      for (int j = 0; j < numReadingsThisWeek; j++) thisWeeksReadings.add(getNextReading());
-      readings.put(i, thisWeeksReadings);
-    }
-    */
-
   }
 
   int getTotalReadings() {
