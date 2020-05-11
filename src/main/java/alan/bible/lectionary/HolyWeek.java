@@ -59,7 +59,7 @@ class HolyWeek extends Period {
 
     Calendar holyMonday = (Calendar)palmSunday.clone();
     holyMonday.add(Calendar.DATE, 1);
-    holidays.put(holyMonday, new Holiday("Holy Monday", holyMonday, calendar, "Matthew 26:1-14", "John 12:20-13:38"));
+    holidays.put(holyMonday, new Holiday("Holy Monday", holyMonday, calendar, "Matthew 26:1-16", "John 12:20-13:38"));
 
     Calendar holyTuesday = (Calendar)palmSunday.clone();
     holyTuesday.add(Calendar.DATE, 2);
