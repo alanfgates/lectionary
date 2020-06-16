@@ -1,0 +1,1959 @@
+12 Tue  Genesis 1
+13 Wed  Matthew 1
+14 Thu  Genesis 2
+15 Fri  Matthew 2
+16 Sat  Genesis 3
+17 Sun  Psalm 1
+18 Mon  Matthew 3
+19 Tue  Genesis 4
+20 Wed  Matthew 4
+21 Thu  Ascension Day Luke 24:50-53
+22 Fri  Genesis 5
+23 Sat  Matthew 5
+24 Sun  Psalm 2
+25 Mon  Genesis 6
+26 Tue  Matthew 6
+27 Wed  Genesis 7
+28 Thu  Matthew 7
+29 Fri  Genesis 8
+30 Sat  Matthew 8
+31 Sun  Pentecost Acts 2
+June
+1 Mon  Genesis 9
+2 Tue  Matthew 9
+3 Wed  Genesis 10
+4 Thu  Matthew 10
+5 Fri  Genesis 11
+6 Sat  Matthew 11
+7 Sun  Psalm 3
+8 Mon  Genesis 12
+9 Tue  Matthew 12
+10 Wed  Genesis 13
+11 Thu  Matthew 13
+12 Fri  Genesis 14
+13 Sat  Matthew 14
+14 Sun  Psalm 4
+15 Mon  Genesis 15
+16 Tue  Matthew 15
+17 Wed  Genesis 16
+18 Thu  Matthew 16
+19 Fri  Genesis 17
+20 Sat  Matthew 17
+21 Sun  Psalm 5
+22 Mon  Genesis 18
+23 Tue  Matthew 18
+24 Wed  Genesis 19
+25 Thu  Matthew 19
+26 Fri  Genesis 20
+27 Sat  Matthew 20
+28 Sun  Psalm 6
+29 Mon  Genesis 21
+30 Tue  Matthew 21
+July
+1 Wed  Genesis 22
+2 Thu  Matthew 22
+3 Fri  Genesis 23
+4 Sat  Matthew 23
+5 Sun  Psalm 7
+6 Mon  Genesis 24
+7 Tue  Matthew 24
+8 Wed  Genesis 25
+9 Thu  Matthew 25
+10 Fri  Genesis 26
+11 Sat  Matthew 26
+12 Sun  Psalm 8
+13 Mon  Genesis 27
+14 Tue  Matthew 27
+15 Wed  Genesis 28
+16 Thu  Matthew 28
+17 Fri  Genesis 29
+18 Sat  Acts 1
+19 Sun  Psalm 9
+20 Mon  Genesis 30
+21 Tue  Acts 2
+22 Wed  Genesis 31
+23 Thu  Acts 3
+24 Fri  Genesis 32
+25 Sat  Acts 4
+26 Sun  Psalm 10
+27 Mon  Genesis 33
+28 Tue  Acts 5
+29 Wed  Genesis 34
+30 Thu  Acts 6
+31 Fri  Genesis 35
+August
+1 Sat  Acts 7
+2 Sun  Psalm 11
+3 Mon  Genesis 36
+4 Tue  Acts 8
+5 Wed  Genesis 37
+6 Thu  Acts 9
+7 Fri  Genesis 38
+8 Sat  Acts 10
+9 Sun  Psalm 12
+10 Mon  Genesis 39
+11 Tue  Acts 11
+12 Wed  Genesis 40
+13 Thu  Acts 12
+14 Fri  Genesis 41
+15 Sat  Acts 13
+16 Sun  Psalm 13
+17 Mon  Genesis 42
+18 Tue  Acts 14
+19 Wed  Genesis 43
+20 Thu  Acts 15
+21 Fri  Genesis 44
+22 Sat  Acts 16
+23 Sun  Psalm 14
+24 Mon  Genesis 45
+25 Tue  Acts 17
+26 Wed  Genesis 46
+27 Thu  Acts 18
+28 Fri  Genesis 47
+29 Sat  Acts 19
+30 Sun  Psalm 15
+31 Mon  Genesis 48
+September
+1 Tue  Acts 20
+2 Wed  Genesis 49
+3 Thu  Acts 21
+4 Fri  Genesis 50
+5 Sat  Acts 22
+6 Sun  Psalm 16
+7 Mon  Joshua 1
+8 Tue  Acts 23
+9 Wed  Joshua 2
+10 Thu  Acts 24
+11 Fri  Joshua 3
+12 Sat  Acts 25
+13 Sun  Psalm 17
+14 Mon  Joshua 4
+15 Tue  Acts 26
+16 Wed  Joshua 5
+17 Thu  Acts 27
+18 Fri  Joshua 6
+19 Sat  Acts 28
+20 Sun  Psalm 18
+21 Mon  Joshua 7
+22 Tue  Romans 1
+23 Wed  Joshua 8
+24 Thu  Romans 2
+25 Fri  Joshua 9
+26 Sat  Romans 3
+27 Sun  Psalm 19
+28 Mon  Joshua 10
+29 Tue  Romans 4
+30 Wed  Joshua 11
+October
+1 Thu  Romans 5
+2 Fri  Joshua 12
+3 Sat  Romans 6
+4 Sun  Psalm 20
+5 Mon  Joshua 13
+6 Tue  Romans 7
+7 Wed  Joshua 14
+8 Thu  Romans 8
+9 Fri  Joshua 15
+10 Sat  Romans 9
+11 Sun  Psalm 21
+12 Mon  Joshua 16
+13 Tue  Romans 10
+14 Wed  Joshua 17
+15 Thu  Romans 11
+16 Fri  Joshua 18
+17 Sat  Romans 12
+18 Sun  Psalm 22
+19 Mon  Joshua 19
+20 Tue  Romans 13
+21 Wed  Joshua 20
+22 Thu  Romans 14
+23 Fri  Joshua 21
+24 Sat  Romans 15
+25 Sun  Psalm 23
+26 Mon  Joshua 22
+27 Tue  Romans 16
+28 Wed  Joshua 23
+29 Thu  Hebrews 1
+30 Fri  Joshua 24
+31 Sat  Hebrews 2
+November
+1 Sun  Psalm 24
+2 Mon  Job 1
+3 Tue  Hebrews 3
+4 Wed  Job 2
+5 Thu  Hebrews 4
+6 Fri  Job 3
+7 Sat  Hebrews 5
+8 Sun  Psalm 25
+9 Mon  Job 4
+10 Tue  Hebrews 6
+11 Wed  Job 5
+12 Thu  Hebrews 7
+13 Fri  Job 6
+14 Sat  Hebrews 8
+15 Sun  Psalm 26
+16 Mon  Job 7
+17 Tue  Hebrews 9
+18 Wed  Job 8
+19 Thu  Hebrews 10
+20 Fri  Job 9
+21 Sat  Hebrews 11
+22 Sun  Psalm 27
+23 Mon  Job 10
+24 Tue  Hebrews 12
+25 Wed  Job 11
+26 Thu  Hebrews 13
+27 Fri  Job 12
+28 Sat  Revelation 1
+29 Sun  First Sunday of Advent John 1:1-18
+30 Mon  Job 13
+December
+1 Tue  Revelation 2
+2 Wed  Job 14
+3 Thu  Revelation 3
+4 Fri  Job 15
+5 Sat  Revelation 4
+6 Sun  Second Sunday of Advent Luke 1:1-25
+7 Mon  Job 16
+8 Tue  Revelation 5
+9 Wed  Job 17
+10 Thu  Revelation 6
+11 Fri  Job 18
+12 Sat  Revelation 7
+13 Sun  Third Sunday of Advent Luke 1:26-56
+14 Mon  Job 19
+15 Tue  Revelation 8
+16 Wed  Job 20
+17 Thu  Revelation 9
+18 Fri  Job 21
+19 Sat  Revelation 10
+20 Sun  Fourth Sunday of Advent Luke 1:57-80
+21 Mon  Job 22
+22 Tue  Revelation 11
+23 Wed  Job 23
+24 Thu  Revelation 12
+25 Fri  Christmas Matthew 1:18-25, Luke 2:1-20
+26 Sat  Job 24
+27 Sun  Psalm 28
+28 Mon  Holy Innocents Matthew 2:13-23
+29 Tue  Revelation 13
+30 Wed  Job 25
+31 Thu  Revelation 14
+2021
+January
+1 Fri  Job 26
+2 Sat  Revelation 15
+3 Sun  Psalm 29
+4 Mon  Job 27
+5 Tue  Revelation 16
+6 Wed  Epiphany Matthew 2:1-12
+7 Thu  Job 28
+8 Fri  Revelation 17
+9 Sat  Job 29
+10 Sun  Psalm 30
+11 Mon  Revelation 18
+12 Tue  Job 30
+13 Wed  Revelation 19
+14 Thu  Job 31
+15 Fri  Revelation 20
+16 Sat  Job 32
+17 Sun  Psalm 31
+18 Mon  Revelation 21
+19 Tue  Job 33
+20 Wed  Revelation 22
+21 Thu  Job 34
+22 Fri  Mark 1
+23 Sat  Job 35
+24 Sun  Psalm 32
+25 Mon  Mark 2
+26 Tue  Job 36
+27 Wed  Mark 3
+28 Thu  Job 37
+29 Fri  Mark 4
+30 Sat  Job 38
+31 Sun  Psalm 33
+February
+1 Mon  Mark 5
+2 Tue  The Presentation Luke 2:21-25
+3 Wed  Job 39
+4 Thu  Mark 6
+5 Fri  Job 40
+6 Sat  Mark 7
+7 Sun  Psalm 34
+8 Mon  Job 41
+9 Tue  Mark 8
+10 Wed  Job 42
+11 Thu  Mark 9
+12 Fri  Isaiah 1
+13 Sat  Mark 10
+14 Sun  Psalm 35
+15 Mon  Isaiah 2
+16 Tue  Mark 11
+17 Wed  Ash Wednesday Luke 3:21,22, 4:1-13
+18 Thu  Isaiah 3
+19 Fri  Mark 12
+20 Sat  Isaiah 4
+21 Sun  Psalm 36
+22 Mon  Mark 13
+23 Tue  Isaiah 5
+24 Wed  Mark 14
+25 Thu  Isaiah 6
+26 Fri  Mark 15
+27 Sat  Isaiah 7
+28 Sun  Psalm 37
+March
+1 Mon  Mark 16
+2 Tue  Isaiah 8
+3 Wed  1 Corinthians 1
+4 Thu  Isaiah 9
+5 Fri  1 Corinthians 2
+6 Sat  Isaiah 10
+7 Sun  Psalm 38
+8 Mon  1 Corinthians 3
+9 Tue  Isaiah 11
+10 Wed  1 Corinthians 4
+11 Thu  Isaiah 12
+12 Fri  1 Corinthians 5
+13 Sat  Isaiah 13
+14 Sun  Psalm 39
+15 Mon  1 Corinthians 6
+16 Tue  Isaiah 14
+17 Wed  1 Corinthians 7
+18 Thu  Isaiah 15
+19 Fri  1 Corinthians 8
+20 Sat  Isaiah 16
+21 Sun  Psalm 40
+22 Mon  1 Corinthians 9
+23 Tue  Isaiah 17
+24 Wed  1 Corinthians 10
+25 Thu  The Annunciation Luke 1:26-38
+26 Fri  Isaiah 18
+27 Sat  1 Corinthians 11
+28 Sun  Palm Sunday Psalm 24, Zechariah 9, Luke 19:28-48, John 12:12-19
+29 Mon  Monday of Holy Week John 12:20-13:38
+30 Tue  Tuesday of Holy Week John 16
+31 Wed  Wednesday of Holy Week John 17
+April
+1 Thu  Maundy Thursday Mark 14:12-72
+2 Fri  Good Friday Mark 15:1-41
+3 Sat  Holy Saturday Mark 15:42-47
+4 Sun  Easter Mark 16:1-8
+5 Mon  Isaiah 19
+6 Tue  1 Corinthians 12
+7 Wed  Isaiah 20
+8 Thu  1 Corinthians 13
+9 Fri  Isaiah 21
+10 Sat  1 Corinthians 14
+11 Sun  Psalm 41
+12 Mon  Isaiah 22
+13 Tue  1 Corinthians 15
+14 Wed  Isaiah 23
+15 Thu  1 Corinthians 16
+16 Fri  Isaiah 24
+17 Sat  James 1
+18 Sun  Psalm 42
+19 Mon  Isaiah 25
+20 Tue  James 2
+21 Wed  Isaiah 26
+22 Thu  James 3
+23 Fri  Isaiah 27
+24 Sat  James 4
+25 Sun  Psalm 43
+26 Mon  Isaiah 28
+27 Tue  James 5
+28 Wed  Isaiah 29
+29 Thu  Luke 1
+30 Fri  Isaiah 30
+May
+1 Sat  Luke 2
+2 Sun  Psalm 44
+3 Mon  Isaiah 31
+4 Tue  Luke 3
+5 Wed  Isaiah 32
+6 Thu  Luke 4
+7 Fri  Isaiah 33
+8 Sat  Luke 5
+9 Sun  Psalm 45
+10 Mon  Isaiah 34
+11 Tue  Luke 6
+12 Wed  Isaiah 35
+13 Thu  Ascension Day Acts 1
+14 Fri  Luke 7
+15 Sat  Isaiah 36
+16 Sun  Psalm 46
+17 Mon  Luke 8
+18 Tue  Isaiah 37
+19 Wed  Luke 9
+20 Thu  Isaiah 38
+21 Fri  Luke 10
+22 Sat  Isaiah 39
+23 Sun  Pentecost Acts 2
+24 Mon  Luke 11
+25 Tue  Isaiah 40
+26 Wed  Luke 12
+27 Thu  Isaiah 41
+28 Fri  Luke 13
+29 Sat  Isaiah 42
+30 Sun  Psalm 47
+31 Mon  Luke 14
+June
+1 Tue  Isaiah 43
+2 Wed  Luke 15
+3 Thu  Isaiah 44
+4 Fri  Luke 16
+5 Sat  Isaiah 45
+6 Sun  Psalm 48
+7 Mon  Luke 17
+8 Tue  Isaiah 46
+9 Wed  Luke 18
+10 Thu  Isaiah 47
+11 Fri  Luke 19
+12 Sat  Isaiah 48
+13 Sun  Psalm 49
+14 Mon  Luke 20
+15 Tue  Isaiah 49
+16 Wed  Luke 21
+17 Thu  Isaiah 50
+18 Fri  Luke 22
+19 Sat  Isaiah 51
+20 Sun  Psalm 50
+21 Mon  Luke 23
+22 Tue  Isaiah 52
+23 Wed  Luke 24
+24 Thu  Isaiah 53
+25 Fri  2 Corinthians 1
+26 Sat  Isaiah 54
+27 Sun  Psalm 51
+28 Mon  2 Corinthians 2
+29 Tue  Isaiah 55
+30 Wed  2 Corinthians 3
+July
+1 Thu  Isaiah 56
+2 Fri  2 Corinthians 4
+3 Sat  Isaiah 57
+4 Sun  Psalm 52
+5 Mon  2 Corinthians 5
+6 Tue  Isaiah 58
+7 Wed  2 Corinthians 6
+8 Thu  Isaiah 59
+9 Fri  2 Corinthians 7
+10 Sat  Isaiah 60
+11 Sun  Psalm 53
+12 Mon  2 Corinthians 8
+13 Tue  Isaiah 61
+14 Wed  2 Corinthians 9
+15 Thu  Isaiah 62
+16 Fri  2 Corinthians 10
+17 Sat  Isaiah 63
+18 Sun  Psalm 54
+19 Mon  2 Corinthians 11
+20 Tue  Isaiah 64
+21 Wed  2 Corinthians 12
+22 Thu  Isaiah 65
+23 Fri  2 Corinthians 13
+24 Sat  Isaiah 66
+25 Sun  Psalm 55
+26 Mon  1 Peter 1
+27 Tue  Exodus 1
+28 Wed  1 Peter 2
+29 Thu  Exodus 2
+30 Fri  1 Peter 3
+31 Sat  Exodus 3
+August
+1 Sun  Psalm 56
+2 Mon  1 Peter 4
+3 Tue  Exodus 4
+4 Wed  1 Peter 5
+5 Thu  Exodus 5
+6 Fri  John 1
+7 Sat  Exodus 6
+8 Sun  Psalm 57
+9 Mon  John 2
+10 Tue  Exodus 7
+11 Wed  John 3
+12 Thu  Exodus 8
+13 Fri  John 4
+14 Sat  Exodus 9
+15 Sun  Psalm 58
+16 Mon  John 5
+17 Tue  Exodus 10
+18 Wed  John 6
+19 Thu  Exodus 11
+20 Fri  John 7
+21 Sat  Exodus 12
+22 Sun  Psalm 59
+23 Mon  John 8
+24 Tue  Exodus 13
+25 Wed  John 9
+26 Thu  Exodus 14
+27 Fri  John 10
+28 Sat  Exodus 15
+29 Sun  Psalm 60
+30 Mon  John 11
+31 Tue  Exodus 16
+September
+1 Wed  John 12
+2 Thu  Exodus 17
+3 Fri  John 13
+4 Sat  Exodus 18
+5 Sun  Psalm 61
+6 Mon  John 14
+7 Tue  Exodus 19
+8 Wed  John 15
+9 Thu  Exodus 20
+10 Fri  John 16
+11 Sat  Exodus 21
+12 Sun  Psalm 62
+13 Mon  John 17
+14 Tue  Exodus 22
+15 Wed  John 18
+16 Thu  Exodus 23
+17 Fri  John 19
+18 Sat  Exodus 24
+19 Sun  Psalm 63
+20 Mon  John 20
+21 Tue  Exodus 25
+22 Wed  John 21
+23 Thu  Exodus 26
+24 Fri  Galatians 1
+25 Sat  Exodus 27
+26 Sun  Psalm 64
+27 Mon  Galatians 2
+28 Tue  Exodus 28
+29 Wed  Galatians 3
+30 Thu  Exodus 29
+October
+1 Fri  Galatians 4
+2 Sat  Exodus 30
+3 Sun  Psalm 65
+4 Mon  Galatians 5
+5 Tue  Exodus 31
+6 Wed  Galatians 6
+7 Thu  Exodus 32
+8 Fri  2 Peter 1
+9 Sat  Exodus 33
+10 Sun  Psalm 66
+11 Mon  2 Peter 2
+12 Tue  Exodus 34
+13 Wed  2 Peter 3
+14 Thu  Exodus 35
+15 Fri  Ephesians 1
+16 Sat  Exodus 36
+17 Sun  Psalm 67
+18 Mon  Ephesians 2
+19 Tue  Exodus 37
+20 Wed  Ephesians 3
+21 Thu  Exodus 38
+22 Fri  Ephesians 4
+23 Sat  Exodus 39
+24 Sun  Psalm 68
+25 Mon  Ephesians 5
+26 Tue  Exodus 40
+27 Wed  Ephesians 6
+28 Thu  Judges 1
+29 Fri  1 John 1
+30 Sat  Judges 2
+31 Sun  Psalm 69
+November
+1 Mon  1 John 2
+2 Tue  Judges 3
+3 Wed  1 John 3
+4 Thu  Judges 4
+5 Fri  1 John 4
+6 Sat  Judges 5
+7 Sun  Psalm 70
+8 Mon  1 John 5
+9 Tue  Judges 6
+10 Wed  Philippians 1
+11 Thu  Judges 7
+12 Fri  Philippians 2
+13 Sat  Judges 8
+14 Sun  Psalm 71
+15 Mon  Philippians 3
+16 Tue  Judges 9
+17 Wed  Philippians 4
+18 Thu  Judges 10
+19 Fri  2 John 1
+20 Sat  Judges 11
+21 Sun  Psalm 72
+22 Mon  Colossians 1
+23 Tue  Judges 12
+24 Wed  Colossians 2
+25 Thu  Judges 13
+26 Fri  Colossians 3
+27 Sat  Judges 14
+28 Sun  First Sunday of Advent John 1:1-18
+29 Mon  Colossians 4
+30 Tue  Judges 15
+December
+1 Wed  3 John 1
+2 Thu  Judges 16
+3 Fri  1 Thessalonians 1
+4 Sat  Judges 17
+5 Sun  Second Sunday of Advent Luke 1:1-25
+6 Mon  1 Thessalonians 2
+7 Tue  Judges 18
+8 Wed  1 Thessalonians 3
+9 Thu  Judges 19
+10 Fri  1 Thessalonians 4
+11 Sat  Judges 20
+12 Sun  Third Sunday of Advent Luke 1:26-56
+13 Mon  1 Thessalonians 5
+14 Tue  Judges 21
+15 Wed  Jude 1
+16 Thu  Proverbs 1
+17 Fri  2 Thessalonians 1
+18 Sat  Proverbs 2
+19 Sun  Fourth Sunday of Advent Luke 1:57-80
+20 Mon  2 Thessalonians 2
+21 Tue  Proverbs 3
+22 Wed  2 Thessalonians 3
+23 Thu  Proverbs 4
+24 Fri  1 Timothy 1
+25 Sat  Christmas Matthew 1:18-25, Luke 2:1-20
+26 Sun  Psalm 73
+27 Mon  Proverbs 5
+28 Tue  Holy Innocents Matthew 2:13-23
+29 Wed  1 Timothy 2
+30 Thu  Proverbs 6
+31 Fri  1 Timothy 3
+2022
+January
+1 Sat  Proverbs 7
+2 Sun  Psalm 74
+3 Mon  1 Timothy 4
+4 Tue  Proverbs 8
+5 Wed  1 Timothy 5
+6 Thu  Epiphany Matthew 2:1-12
+7 Fri  Proverbs 9
+8 Sat  1 Timothy 6
+9 Sun  Psalm 75
+10 Mon  Proverbs 10
+11 Tue  2 Timothy 1
+12 Wed  Proverbs 11
+13 Thu  2 Timothy 2
+14 Fri  Proverbs 12
+15 Sat  2 Timothy 3
+16 Sun  Psalm 76
+17 Mon  Proverbs 13
+18 Tue  2 Timothy 4
+19 Wed  Proverbs 14
+20 Thu  Titus 1
+21 Fri  Proverbs 15
+22 Sat  Titus 2
+23 Sun  Psalm 77
+24 Mon  Proverbs 16
+25 Tue  Titus 3
+26 Wed  Proverbs 17
+27 Thu  Philemon 1
+28 Fri  Proverbs 18
+29 Sat  Matthew 1
+30 Sun  Psalm 78
+31 Mon  Proverbs 19
+February
+1 Tue  Matthew 2
+2 Wed  The Presentation Luke 2:21-25
+3 Thu  Proverbs 20
+4 Fri  Matthew 3
+5 Sat  Proverbs 21
+6 Sun  Psalm 79
+7 Mon  Matthew 4
+8 Tue  Proverbs 22
+9 Wed  Matthew 5
+10 Thu  Proverbs 23
+11 Fri  Matthew 6
+12 Sat  Proverbs 24
+13 Sun  Psalm 80
+14 Mon  Matthew 7
+15 Tue  Proverbs 25
+16 Wed  Matthew 8
+17 Thu  Proverbs 26
+18 Fri  Matthew 9
+19 Sat  Proverbs 27
+20 Sun  Psalm 81
+21 Mon  Matthew 10
+22 Tue  Proverbs 28
+23 Wed  Matthew 11
+24 Thu  Proverbs 29
+25 Fri  Matthew 12
+26 Sat  Proverbs 30
+27 Sun  Psalm 82
+28 Mon  Matthew 13
+March
+1 Tue  Proverbs 31
+2 Wed  Ash Wednesday Matthew 3:13-4:11
+3 Thu  Matthew 14
+4 Fri  Jeremiah 1
+5 Sat  Matthew 15
+6 Sun  Psalm 83
+7 Mon  Jeremiah 2
+8 Tue  Matthew 16
+9 Wed  Jeremiah 3
+10 Thu  Matthew 17
+11 Fri  Jeremiah 4
+12 Sat  Matthew 18
+13 Sun  Psalm 84
+14 Mon  Jeremiah 5
+15 Tue  Matthew 19
+16 Wed  Jeremiah 6
+17 Thu  Matthew 20
+18 Fri  Jeremiah 7
+19 Sat  Matthew 21
+20 Sun  Psalm 85
+21 Mon  Jeremiah 8
+22 Tue  Matthew 22
+23 Wed  Jeremiah 9
+24 Thu  Matthew 23
+25 Fri  The Annunciation Luke 1:26-38
+26 Sat  Jeremiah 10
+27 Sun  Psalm 86
+28 Mon  Matthew 24
+29 Tue  Jeremiah 11
+30 Wed  Matthew 25
+31 Thu  Jeremiah 12
+April
+1 Fri  Matthew 26
+2 Sat  Jeremiah 13
+3 Sun  Psalm 87
+4 Mon  Matthew 27
+5 Tue  Jeremiah 14
+6 Wed  Matthew 28
+7 Thu  Jeremiah 15
+8 Fri  Acts 1
+9 Sat  Jeremiah 16
+10 Sun  Palm Sunday Psalm 24, Zechariah 9, Matthew 21:1-9, John 12:12-19
+11 Mon  Monday of Holy Week Matthew 26:1-16
+12 Tue  Tuesday of Holy Week Mark 14:1-11
+13 Wed  Wednesday of Holy Week Luke 22:1-6
+14 Thu  Maundy Thursday Luke 22:7-62
+15 Fri  Good Friday Luke 22:63-23:56
+16 Sat  Holy Saturday Matthew 27:62-66
+17 Sun  Easter Luke 24:1-49
+18 Mon  Acts 2
+19 Tue  Jeremiah 17
+20 Wed  Acts 3
+21 Thu  Jeremiah 18
+22 Fri  Acts 4
+23 Sat  Jeremiah 19
+24 Sun  Psalm 88
+25 Mon  Acts 5
+26 Tue  Jeremiah 20
+27 Wed  Acts 6
+28 Thu  Jeremiah 21
+29 Fri  Acts 7
+30 Sat  Jeremiah 22
+May
+1 Sun  Psalm 89
+2 Mon  Acts 8
+3 Tue  Jeremiah 23
+4 Wed  Acts 9
+5 Thu  Jeremiah 24
+6 Fri  Acts 10
+7 Sat  Jeremiah 25
+8 Sun  Psalm 90
+9 Mon  Acts 11
+10 Tue  Jeremiah 26
+11 Wed  Acts 12
+12 Thu  Jeremiah 27
+13 Fri  Acts 13
+14 Sat  Jeremiah 28
+15 Sun  Psalm 91
+16 Mon  Acts 14
+17 Tue  Jeremiah 29
+18 Wed  Acts 15
+19 Thu  Jeremiah 30
+20 Fri  Acts 16
+21 Sat  Jeremiah 31
+22 Sun  Psalm 92
+23 Mon  Acts 17
+24 Tue  Jeremiah 32
+25 Wed  Acts 18
+26 Thu  Ascension Day Matthew 28:16-20
+27 Fri  Jeremiah 33
+28 Sat  Acts 19
+29 Sun  Psalm 93
+30 Mon  Jeremiah 34
+31 Tue  Acts 20
+June
+1 Wed  Jeremiah 35
+2 Thu  Acts 21
+3 Fri  Jeremiah 36
+4 Sat  Acts 22
+5 Sun  Pentecost Acts 2
+6 Mon  Jeremiah 37
+7 Tue  Acts 23
+8 Wed  Jeremiah 38
+9 Thu  Acts 24
+10 Fri  Jeremiah 39
+11 Sat  Acts 25
+12 Sun  Psalm 94
+13 Mon  Jeremiah 40
+14 Tue  Acts 26
+15 Wed  Jeremiah 41
+16 Thu  Acts 27
+17 Fri  Jeremiah 42
+18 Sat  Acts 28
+19 Sun  Psalm 95
+20 Mon  Jeremiah 43
+21 Tue  Romans 1
+22 Wed  Jeremiah 44
+23 Thu  Romans 2
+24 Fri  Jeremiah 45
+25 Sat  Romans 3
+26 Sun  Psalm 96
+27 Mon  Jeremiah 46
+28 Tue  Romans 4
+29 Wed  Jeremiah 47
+30 Thu  Romans 5
+July
+1 Fri  Jeremiah 48
+2 Sat  Romans 6
+3 Sun  Psalm 97
+4 Mon  Jeremiah 49
+5 Tue  Romans 7
+6 Wed  Jeremiah 50
+7 Thu  Romans 8
+8 Fri  Jeremiah 51
+9 Sat  Romans 9
+10 Sun  Psalm 98
+11 Mon  Jeremiah 52
+12 Tue  Romans 10
+13 Wed  Leviticus 1
+14 Thu  Romans 11
+15 Fri  Leviticus 2
+16 Sat  Romans 12
+17 Sun  Psalm 99
+18 Mon  Leviticus 3
+19 Tue  Romans 13
+20 Wed  Leviticus 4
+21 Thu  Romans 14
+22 Fri  Leviticus 5
+23 Sat  Romans 15
+24 Sun  Psalm 100
+25 Mon  Leviticus 6
+26 Tue  Romans 16
+27 Wed  Leviticus 7
+28 Thu  Hebrews 1
+29 Fri  Leviticus 8
+30 Sat  Hebrews 2
+31 Sun  Psalm 101
+August
+1 Mon  Leviticus 9
+2 Tue  Hebrews 3
+3 Wed  Leviticus 10
+4 Thu  Hebrews 4
+5 Fri  Leviticus 11
+6 Sat  Hebrews 5
+7 Sun  Psalm 102
+8 Mon  Leviticus 12
+9 Tue  Hebrews 6
+10 Wed  Leviticus 13
+11 Thu  Hebrews 7
+12 Fri  Leviticus 14
+13 Sat  Hebrews 8
+14 Sun  Psalm 103
+15 Mon  Leviticus 15
+16 Tue  Hebrews 9
+17 Wed  Leviticus 16
+18 Thu  Hebrews 10
+19 Fri  Leviticus 17
+20 Sat  Hebrews 11
+21 Sun  Psalm 104
+22 Mon  Leviticus 18
+23 Tue  Hebrews 12
+24 Wed  Leviticus 19
+25 Thu  Hebrews 13
+26 Fri  Leviticus 20
+27 Sat  Revelation 1
+28 Sun  Psalm 105
+29 Mon  Leviticus 21
+30 Tue  Revelation 2
+31 Wed  Leviticus 22
+September
+1 Thu  Revelation 3
+2 Fri  Leviticus 23
+3 Sat  Revelation 4
+4 Sun  Psalm 106
+5 Mon  Leviticus 24
+6 Tue  Revelation 5
+7 Wed  Leviticus 25
+8 Thu  Revelation 6
+9 Fri  Leviticus 26
+10 Sat  Revelation 7
+11 Sun  Psalm 107
+12 Mon  Leviticus 27
+13 Tue  Revelation 8
+14 Wed  Ruth 1
+15 Thu  Revelation 9
+16 Fri  Ruth 2
+17 Sat  Revelation 10
+18 Sun  Psalm 108
+19 Mon  Ruth 3
+20 Tue  Revelation 11
+21 Wed  Ruth 4
+22 Thu  Revelation 12
+23 Fri  Lamentations 1
+24 Sat  Revelation 13
+25 Sun  Psalm 109
+26 Mon  Lamentations 2
+27 Tue  Revelation 14
+28 Wed  Lamentations 3
+29 Thu  Revelation 15
+30 Fri  Lamentations 4
+October
+1 Sat  Revelation 16
+2 Sun  Psalm 110
+3 Mon  Lamentations 5
+4 Tue  Revelation 17
+5 Wed  Ecclesiastes 1
+6 Thu  Revelation 18
+7 Fri  Ecclesiastes 2
+8 Sat  Revelation 19
+9 Sun  Psalm 111
+10 Mon  Ecclesiastes 3
+11 Tue  Revelation 20
+12 Wed  Ecclesiastes 4
+13 Thu  Revelation 21
+14 Fri  Ecclesiastes 5
+15 Sat  Revelation 22
+16 Sun  Psalm 112
+17 Mon  Ecclesiastes 6
+18 Tue  Mark 1
+19 Wed  Ecclesiastes 7
+20 Thu  Mark 2
+21 Fri  Ecclesiastes 8
+22 Sat  Mark 3
+23 Sun  Psalm 113
+24 Mon  Ecclesiastes 9
+25 Tue  Mark 4
+26 Wed  Ecclesiastes 10
+27 Thu  Mark 5
+28 Fri  Ecclesiastes 11
+29 Sat  Mark 6
+30 Sun  Psalm 114
+31 Mon  Ecclesiastes 12
+November
+1 Tue  Mark 7
+2 Wed  Numbers 1
+3 Thu  Mark 8
+4 Fri  Numbers 2
+5 Sat  Mark 9
+6 Sun  Psalm 115
+7 Mon  Numbers 3
+8 Tue  Mark 10
+9 Wed  Numbers 4
+10 Thu  Mark 11
+11 Fri  Numbers 5
+12 Sat  Mark 12
+13 Sun  Psalm 116
+14 Mon  Numbers 6
+15 Tue  Mark 13
+16 Wed  Numbers 7
+17 Thu  Mark 14
+18 Fri  Numbers 8
+19 Sat  Mark 15
+20 Sun  Psalm 117
+21 Mon  Numbers 9
+22 Tue  Mark 16
+23 Wed  Numbers 10
+24 Thu  1 Corinthians 1
+25 Fri  Numbers 11
+26 Sat  1 Corinthians 2
+27 Sun  First Sunday of Advent John 1:1-18
+28 Mon  Numbers 12
+29 Tue  1 Corinthians 3
+30 Wed  Numbers 13
+December
+1 Thu  1 Corinthians 4
+2 Fri  Numbers 14
+3 Sat  1 Corinthians 5
+4 Sun  Second Sunday of Advent Luke 1:1-25
+5 Mon  Numbers 15
+6 Tue  1 Corinthians 6
+7 Wed  Numbers 16
+8 Thu  1 Corinthians 7
+9 Fri  Numbers 17
+10 Sat  1 Corinthians 8
+11 Sun  Third Sunday of Advent Luke 1:26-56
+12 Mon  Numbers 18
+13 Tue  1 Corinthians 9
+14 Wed  Numbers 19
+15 Thu  1 Corinthians 10
+16 Fri  Numbers 20
+17 Sat  1 Corinthians 11
+18 Sun  Fourth Sunday of Advent Luke 1:57-80
+19 Mon  Numbers 21
+20 Tue  1 Corinthians 12
+21 Wed  Numbers 22
+22 Thu  1 Corinthians 13
+23 Fri  Numbers 23
+24 Sat  1 Corinthians 14
+25 Sun  Christmas Matthew 1:18-25, Luke 2:1-20
+26 Mon  Numbers 24
+27 Tue  1 Corinthians 15
+28 Wed  Holy Innocents Matthew 2:13-23
+29 Thu  Numbers 25
+30 Fri  1 Corinthians 16
+31 Sat  Numbers 26
+2023
+January
+1 Sun  Psalm 118
+2 Mon  James 1
+3 Tue  Numbers 27
+4 Wed  James 2
+5 Thu  Numbers 28
+6 Fri  Epiphany Matthew 2:1-12
+7 Sat  James 3
+8 Sun  Psalm 119 א
+9 Mon  Numbers 29
+10 Tue  James 4
+11 Wed  Numbers 30
+12 Thu  James 5
+13 Fri  Numbers 31
+14 Sat  Luke 1
+15 Sun  Psalm 119 ב
+16 Mon  Numbers 32
+17 Tue  Luke 2
+18 Wed  Numbers 33
+19 Thu  Luke 3
+20 Fri  Numbers 34
+21 Sat  Luke 4
+22 Sun  Psalm 119 ג
+23 Mon  Numbers 35
+24 Tue  Luke 5
+25 Wed  Numbers 36
+26 Thu  Luke 6
+27 Fri  1 Samuel 1
+28 Sat  Luke 7
+29 Sun  Psalm 119 ד
+30 Mon  1 Samuel 2
+31 Tue  Luke 8
+February
+1 Wed  1 Samuel 3
+2 Thu  The Presentation Luke 2:21-25
+3 Fri  Luke 9
+4 Sat  1 Samuel 4
+5 Sun  Psalm 119 ה
+6 Mon  Luke 10
+7 Tue  1 Samuel 5
+8 Wed  Luke 11
+9 Thu  1 Samuel 6
+10 Fri  Luke 12
+11 Sat  1 Samuel 7
+12 Sun  Psalm 119 ו
+13 Mon  Luke 13
+14 Tue  1 Samuel 8
+15 Wed  Luke 14
+16 Thu  1 Samuel 9
+17 Fri  Luke 15
+18 Sat  1 Samuel 10
+19 Sun  Psalm 119 ז
+20 Mon  Luke 16
+21 Tue  1 Samuel 11
+22 Wed  Ash Wednesday Mark 1:9-13
+23 Thu  Luke 17
+24 Fri  1 Samuel 12
+25 Sat  Luke 18
+26 Sun  Psalm 119 ח
+27 Mon  1 Samuel 13
+28 Tue  Luke 19
+March
+1 Wed  1 Samuel 14
+2 Thu  Luke 20
+3 Fri  1 Samuel 15
+4 Sat  Luke 21
+5 Sun  Psalm 119 ט
+6 Mon  1 Samuel 16
+7 Tue  Luke 22
+8 Wed  1 Samuel 17
+9 Thu  Luke 23
+10 Fri  1 Samuel 18
+11 Sat  Luke 24
+12 Sun  Psalm 119 י
+13 Mon  1 Samuel 19
+14 Tue  2 Corinthians 1
+15 Wed  1 Samuel 20
+16 Thu  2 Corinthians 2
+17 Fri  1 Samuel 21
+18 Sat  2 Corinthians 3
+19 Sun  Psalm 119 כ
+20 Mon  1 Samuel 22
+21 Tue  2 Corinthians 4
+22 Wed  1 Samuel 23
+23 Thu  2 Corinthians 5
+24 Fri  1 Samuel 24
+25 Sat  The Annunciation Luke 1:26-38
+26 Sun  Psalm 119 ל
+27 Mon  2 Corinthians 6
+28 Tue  1 Samuel 25
+29 Wed  2 Corinthians 7
+30 Thu  1 Samuel 26
+31 Fri  2 Corinthians 8
+April
+1 Sat  1 Samuel 27
+2 Sun  Palm Sunday Psalm 24, Zechariah 9, Mark 11:1-10, John 12:12-19
+3 Mon  Monday of Holy Week John 12:20-13:38
+4 Tue  Tuesday of Holy Week John 14
+5 Wed  Wednesday of Holy Week John 15
+6 Thu  Maundy Thursday John 18
+7 Fri  Good Friday John 19
+8 Sat  Holy Saturday Mark 15:42-47
+9 Sun  Easter John 20
+10 Mon  2 Corinthians 9
+11 Tue  1 Samuel 28
+12 Wed  2 Corinthians 10
+13 Thu  1 Samuel 29
+14 Fri  2 Corinthians 11
+15 Sat  1 Samuel 30
+16 Sun  Psalm 119 מ
+17 Mon  2 Corinthians 12
+18 Tue  1 Samuel 31
+19 Wed  2 Corinthians 13
+20 Thu  Song of Songs 1
+21 Fri  1 Peter 1
+22 Sat  Song of Songs 2
+23 Sun  Psalm 119 נ
+24 Mon  1 Peter 2
+25 Tue  Song of Songs 3
+26 Wed  1 Peter 3
+27 Thu  Song of Songs 4
+28 Fri  1 Peter 4
+29 Sat  Song of Songs 5
+30 Sun  Psalm 119 ס
+May
+1 Mon  1 Peter 5
+2 Tue  Song of Songs 6
+3 Wed  John 1
+4 Thu  Song of Songs 7
+5 Fri  John 2
+6 Sat  Song of Songs 8
+7 Sun  Psalm 119 ע
+8 Mon  John 3
+9 Tue  Ezekiel 1
+10 Wed  John 4
+11 Thu  Ezekiel 2
+12 Fri  John 5
+13 Sat  Ezekiel 3
+14 Sun  Psalm 119 פ
+15 Mon  John 6
+16 Tue  Ezekiel 4
+17 Wed  John 7
+18 Thu  Ascension Day Luke 24:50-53
+19 Fri  Ezekiel 5
+20 Sat  John 8
+21 Sun  Psalm 119 צ
+22 Mon  Ezekiel 6
+23 Tue  John 9
+24 Wed  Ezekiel 7
+25 Thu  John 10
+26 Fri  Ezekiel 8
+27 Sat  John 11
+28 Sun  Pentecost Acts 2
+29 Mon  Ezekiel 9
+30 Tue  John 12
+31 Wed  Ezekiel 10
+June
+1 Thu  John 13
+2 Fri  Ezekiel 11
+3 Sat  John 14
+4 Sun  Psalm 119 ק
+5 Mon  Ezekiel 12
+6 Tue  John 15
+7 Wed  Ezekiel 13
+8 Thu  John 16
+9 Fri  Ezekiel 14
+10 Sat  John 17
+11 Sun  Psalm 119 ר
+12 Mon  Ezekiel 15
+13 Tue  John 18
+14 Wed  Ezekiel 16
+15 Thu  John 19
+16 Fri  Ezekiel 17
+17 Sat  John 20
+18 Sun  Psalm 119 ש
+19 Mon  Ezekiel 18
+20 Tue  John 21
+21 Wed  Ezekiel 19
+22 Thu  Galatians 1
+23 Fri  Ezekiel 20
+24 Sat  Galatians 2
+25 Sun  Psalm 119 ת
+26 Mon  Ezekiel 21
+27 Tue  Galatians 3
+28 Wed  Ezekiel 22
+29 Thu  Galatians 4
+30 Fri  Ezekiel 23
+July
+1 Sat  Galatians 5
+2 Sun  Psalm 120
+3 Mon  Ezekiel 24
+4 Tue  Galatians 6
+5 Wed  Ezekiel 25
+6 Thu  2 Peter 1
+7 Fri  Ezekiel 26
+8 Sat  2 Peter 2
+9 Sun  Psalm 121
+10 Mon  Ezekiel 27
+11 Tue  2 Peter 3
+12 Wed  Ezekiel 28
+13 Thu  Ephesians 1
+14 Fri  Ezekiel 29
+15 Sat  Ephesians 2
+16 Sun  Psalm 122
+17 Mon  Ezekiel 30
+18 Tue  Ephesians 3
+19 Wed  Ezekiel 31
+20 Thu  Ephesians 4
+21 Fri  Ezekiel 32
+22 Sat  Ephesians 5
+23 Sun  Psalm 123
+24 Mon  Ezekiel 33
+25 Tue  Ephesians 6
+26 Wed  Ezekiel 34
+27 Thu  1 John 1
+28 Fri  Ezekiel 35
+29 Sat  1 John 2
+30 Sun  Psalm 124
+31 Mon  Ezekiel 36
+August
+1 Tue  1 John 3
+2 Wed  Ezekiel 37
+3 Thu  1 John 4
+4 Fri  Ezekiel 38
+5 Sat  1 John 5
+6 Sun  Psalm 125
+7 Mon  Ezekiel 39
+8 Tue  Philippians 1
+9 Wed  Ezekiel 40
+10 Thu  Philippians 2
+11 Fri  Ezekiel 41
+12 Sat  Philippians 3
+13 Sun  Psalm 126
+14 Mon  Ezekiel 42
+15 Tue  Philippians 4
+16 Wed  Ezekiel 43
+17 Thu  2 John 1
+18 Fri  Ezekiel 44
+19 Sat  Colossians 1
+20 Sun  Psalm 127
+21 Mon  Ezekiel 45
+22 Tue  Colossians 2
+23 Wed  Ezekiel 46
+24 Thu  Colossians 3
+25 Fri  Ezekiel 47
+26 Sat  Colossians 4
+27 Sun  Psalm 128
+28 Mon  Ezekiel 48
+29 Tue  3 John 1
+30 Wed  Deuteronomy 1
+31 Thu  1 Thessalonians 1
+September
+1 Fri  Deuteronomy 2
+2 Sat  1 Thessalonians 2
+3 Sun  Psalm 129
+4 Mon  Deuteronomy 3
+5 Tue  1 Thessalonians 3
+6 Wed  Deuteronomy 4
+7 Thu  1 Thessalonians 4
+8 Fri  Deuteronomy 5
+9 Sat  1 Thessalonians 5
+10 Sun  Psalm 130
+11 Mon  Deuteronomy 6
+12 Tue  Jude 1
+13 Wed  Deuteronomy 7
+14 Thu  2 Thessalonians 1
+15 Fri  Deuteronomy 8
+16 Sat  2 Thessalonians 2
+17 Sun  Psalm 131
+18 Mon  Deuteronomy 9
+19 Tue  2 Thessalonians 3
+20 Wed  Deuteronomy 10
+21 Thu  1 Timothy 1
+22 Fri  Deuteronomy 11
+23 Sat  1 Timothy 2
+24 Sun  Psalm 132
+25 Mon  Deuteronomy 12
+26 Tue  1 Timothy 3
+27 Wed  Deuteronomy 13
+28 Thu  1 Timothy 4
+29 Fri  Deuteronomy 14
+30 Sat  1 Timothy 5
+October
+1 Sun  Psalm 133
+2 Mon  Deuteronomy 15
+3 Tue  1 Timothy 6
+4 Wed  Deuteronomy 16
+5 Thu  2 Timothy 1
+6 Fri  Deuteronomy 17
+7 Sat  2 Timothy 2
+8 Sun  Psalm 134
+9 Mon  Deuteronomy 18
+10 Tue  2 Timothy 3
+11 Wed  Deuteronomy 19
+12 Thu  2 Timothy 4
+13 Fri  Deuteronomy 20
+14 Sat  Titus 1
+15 Sun  Psalm 135
+16 Mon  Deuteronomy 21
+17 Tue  Titus 2
+18 Wed  Deuteronomy 22
+19 Thu  Titus 3
+20 Fri  Deuteronomy 23
+21 Sat  Philemon 1
+22 Sun  Psalm 136
+23 Mon  Deuteronomy 24
+24 Tue  Matthew 1
+25 Wed  Deuteronomy 25
+26 Thu  Matthew 2
+27 Fri  Deuteronomy 26
+28 Sat  Matthew 3
+29 Sun  Psalm 137
+30 Mon  Deuteronomy 27
+31 Tue  Matthew 4
+November
+1 Wed  Deuteronomy 28
+2 Thu  Matthew 5
+3 Fri  Deuteronomy 29
+4 Sat  Matthew 6
+5 Sun  Psalm 138
+6 Mon  Deuteronomy 30
+7 Tue  Matthew 7
+8 Wed  Deuteronomy 31
+9 Thu  Matthew 8
+10 Fri  Deuteronomy 32
+11 Sat  Matthew 9
+12 Sun  Psalm 139
+13 Mon  Deuteronomy 33
+14 Tue  Matthew 10
+15 Wed  Deuteronomy 34
+16 Thu  Matthew 11
+17 Fri  2 Samuel 1
+18 Sat  Matthew 12
+19 Sun  Psalm 140
+20 Mon  2 Samuel 2
+21 Tue  Matthew 13
+22 Wed  2 Samuel 3
+23 Thu  Matthew 14
+24 Fri  2 Samuel 4
+25 Sat  Matthew 15
+26 Sun  Psalm 141
+27 Mon  2 Samuel 5
+28 Tue  Matthew 16
+29 Wed  2 Samuel 6
+30 Thu  Matthew 17
+December
+1 Fri  2 Samuel 7
+2 Sat  Matthew 18
+3 Sun  First Sunday of Advent John 1:1-18
+4 Mon  2 Samuel 8
+5 Tue  Matthew 19
+6 Wed  2 Samuel 9
+7 Thu  Matthew 20
+8 Fri  2 Samuel 10
+9 Sat  Matthew 21
+10 Sun  Second Sunday of Advent Luke 1:1-25
+11 Mon  2 Samuel 11
+12 Tue  Matthew 22
+13 Wed  2 Samuel 12
+14 Thu  Matthew 23
+15 Fri  2 Samuel 13
+16 Sat  Matthew 24
+17 Sun  Third Sunday of Advent Luke 1:26-56
+18 Mon  2 Samuel 14
+19 Tue  Matthew 25
+20 Wed  2 Samuel 15
+21 Thu  Matthew 26
+22 Fri  2 Samuel 16
+23 Sat  Matthew 27
+24 Sun  Fourth Sunday of Advent Luke 1:57-80
+25 Mon  Christmas Matthew 1:18-25, Luke 2:1-20
+26 Tue  2 Samuel 17
+27 Wed  Matthew 28
+28 Thu  Holy Innocents Matthew 2:13-23
+29 Fri  2 Samuel 18
+30 Sat  Acts 1
+31 Sun  Psalm 142
+2024
+January
+1 Mon  2 Samuel 19
+2 Tue  Acts 2
+3 Wed  2 Samuel 20
+4 Thu  Acts 3
+5 Fri  2 Samuel 21
+6 Sat  Epiphany Matthew 2:1-12
+7 Sun  Psalm 143
+8 Mon  Acts 4
+9 Tue  2 Samuel 22
+10 Wed  Acts 5
+11 Thu  2 Samuel 23
+12 Fri  Acts 6
+13 Sat  2 Samuel 24
+14 Sun  Psalm 144
+15 Mon  Acts 7
+16 Tue  Daniel 1
+17 Wed  Acts 8
+18 Thu  Daniel 2
+19 Fri  Acts 9
+20 Sat  Daniel 3
+21 Sun  Psalm 145
+22 Mon  Acts 10
+23 Tue  Daniel 4
+24 Wed  Acts 11
+25 Thu  Daniel 5
+26 Fri  Acts 12
+27 Sat  Daniel 6
+28 Sun  Psalm 146
+29 Mon  Acts 13
+30 Tue  Daniel 7
+31 Wed  Acts 14
+February
+1 Thu  Daniel 8
+2 Fri  The Presentation Luke 2:21-25
+3 Sat  Acts 15
+4 Sun  Psalm 147
+5 Mon  Daniel 9
+6 Tue  Acts 16
+7 Wed  Daniel 10
+8 Thu  Acts 17
+9 Fri  Daniel 11
+10 Sat  Acts 18
+11 Sun  Psalm 148
+12 Mon  Daniel 12
+13 Tue  Acts 19
+14 Wed  Ash Wednesday Luke 3:21,22, 4:1-13
+15 Thu  1 Kings 1
+16 Fri  Acts 20
+17 Sat  1 Kings 2
+18 Sun  Psalm 149
+19 Mon  Acts 21
+20 Tue  1 Kings 3
+21 Wed  Acts 22
+22 Thu  1 Kings 4
+23 Fri  Acts 23
+24 Sat  1 Kings 5
+25 Sun  Psalm 150
+26 Mon  Acts 24
+27 Tue  1 Kings 6
+28 Wed  Acts 25
+29 Thu  1 Kings 7
+March
+1 Fri  Acts 26
+2 Sat  1 Kings 8
+3 Sun  Psalm 1
+4 Mon  Acts 27
+5 Tue  1 Kings 9
+6 Wed  Acts 28
+7 Thu  1 Kings 10
+8 Fri  Romans 1
+9 Sat  1 Kings 11
+10 Sun  Psalm 2
+11 Mon  Romans 2
+12 Tue  1 Kings 12
+13 Wed  Romans 3
+14 Thu  1 Kings 13
+15 Fri  Romans 4
+16 Sat  1 Kings 14
+17 Sun  Psalm 3
+18 Mon  Romans 5
+19 Tue  1 Kings 15
+20 Wed  Romans 6
+21 Thu  1 Kings 16
+22 Fri  Romans 7
+23 Sat  1 Kings 17
+24 Sun  Palm Sunday Psalm 24, Zechariah 9, Luke 19:28-48, John 12:12-19
+25 Mon  Monday of Holy Week Matthew 26:1-16
+26 Tue  Tuesday of Holy Week John 16
+27 Wed  Wednesday of Holy Week John 17
+28 Thu  Maundy Thursday Matthew 26:17-75
+29 Fri  Good Friday Matthew 27:1-61
+30 Sat  Holy Saturday Matthew 27:62-66
+31 Sun  Easter Matthew 28:1-15
+April
+1 Mon  Romans 8
+2 Tue  1 Kings 18
+3 Wed  Romans 9
+4 Thu  1 Kings 19
+5 Fri  Romans 10
+6 Sat  1 Kings 20
+7 Sun  Psalm 4
+8 Mon  Romans 11
+9 Tue  1 Kings 21
+10 Wed  Romans 12
+11 Thu  1 Kings 22
+12 Fri  Romans 13
+13 Sat  Hosea 1
+14 Sun  Psalm 5
+15 Mon  Romans 14
+16 Tue  Hosea 2
+17 Wed  Romans 15
+18 Thu  Hosea 3
+19 Fri  Romans 16
+20 Sat  Hosea 4
+21 Sun  Psalm 6
+22 Mon  Hebrews 1
+23 Tue  Hosea 5
+24 Wed  Hebrews 2
+25 Thu  Hosea 6
+26 Fri  Hebrews 3
+27 Sat  Hosea 7
+28 Sun  Psalm 7
+29 Mon  Hebrews 4
+30 Tue  Hosea 8
+May
+1 Wed  Hebrews 5
+2 Thu  Hosea 9
+3 Fri  Hebrews 6
+4 Sat  Hosea 10
+5 Sun  Psalm 8
+6 Mon  Hebrews 7
+7 Tue  Hosea 11
+8 Wed  Hebrews 8
+9 Thu  Ascension Day Acts 1
+10 Fri  Hosea 12
+11 Sat  Hebrews 9
+12 Sun  Psalm 9
+13 Mon  Hosea 13
+14 Tue  Hebrews 10
+15 Wed  Hosea 14
+16 Thu  Hebrews 11
+17 Fri  2 Kings 1
+18 Sat  Hebrews 12
+19 Sun  Pentecost Acts 2
+20 Mon  2 Kings 2
+21 Tue  Hebrews 13
+22 Wed  2 Kings 3
+23 Thu  Revelation 1
+24 Fri  2 Kings 4
+25 Sat  Revelation 2
+26 Sun  Psalm 10
+27 Mon  2 Kings 5
+28 Tue  Revelation 3
+29 Wed  2 Kings 6
+30 Thu  Revelation 4
+31 Fri  2 Kings 7
+June
+1 Sat  Revelation 5
+2 Sun  Psalm 11
+3 Mon  2 Kings 8
+4 Tue  Revelation 6
+5 Wed  2 Kings 9
+6 Thu  Revelation 7
+7 Fri  2 Kings 10
+8 Sat  Revelation 8
+9 Sun  Psalm 12
+10 Mon  2 Kings 11
+11 Tue  Revelation 9
+12 Wed  2 Kings 12
+13 Thu  Revelation 10
+14 Fri  2 Kings 13
+15 Sat  Revelation 11
+16 Sun  Psalm 13
+17 Mon  2 Kings 14
+18 Tue  Revelation 12
+19 Wed  2 Kings 15
+20 Thu  Revelation 13
+21 Fri  2 Kings 16
+22 Sat  Revelation 14
+23 Sun  Psalm 14
+24 Mon  2 Kings 17
+25 Tue  Revelation 15
+26 Wed  2 Kings 18
+27 Thu  Revelation 16
+28 Fri  2 Kings 19
+29 Sat  Revelation 17
+30 Sun  Psalm 15
+July
+1 Mon  2 Kings 20
+2 Tue  Revelation 18
+3 Wed  2 Kings 21
+4 Thu  Revelation 19
+5 Fri  2 Kings 22
+6 Sat  Revelation 20
+7 Sun  Psalm 16
+8 Mon  2 Kings 23
+9 Tue  Revelation 21
+10 Wed  2 Kings 24
+11 Thu  Revelation 22
+12 Fri  2 Kings 25
+13 Sat  Mark 1
+14 Sun  Psalm 17
+15 Mon  Joel 1
+16 Tue  Mark 2
+17 Wed  Joel 2
+18 Thu  Mark 3
+19 Fri  Joel 3
+20 Sat  Mark 4
+21 Sun  Psalm 18
+22 Mon  1 Chronicles 1
+23 Tue  Mark 5
+24 Wed  1 Chronicles 2
+25 Thu  Mark 6
+26 Fri  1 Chronicles 3
+27 Sat  Mark 7
+28 Sun  Psalm 19
+29 Mon  1 Chronicles 4
+30 Tue  Mark 8
+31 Wed  1 Chronicles 5
+August
+1 Thu  Mark 9
+2 Fri  1 Chronicles 6
+3 Sat  Mark 10
+4 Sun  Psalm 20
+5 Mon  1 Chronicles 7
+6 Tue  Mark 11
+7 Wed  1 Chronicles 8
+8 Thu  Mark 12
+9 Fri  1 Chronicles 9
+10 Sat  Mark 13
+11 Sun  Psalm 21
+12 Mon  1 Chronicles 10
+13 Tue  Mark 14
+14 Wed  1 Chronicles 11
+15 Thu  Mark 15
+16 Fri  1 Chronicles 12
+17 Sat  Mark 16
+18 Sun  Psalm 22
+19 Mon  1 Chronicles 13
+20 Tue  1 Corinthians 1
+21 Wed  1 Chronicles 14
+22 Thu  1 Corinthians 2
+23 Fri  1 Chronicles 15
+24 Sat  1 Corinthians 3
+25 Sun  Psalm 23
+26 Mon  1 Chronicles 16
+27 Tue  1 Corinthians 4
+28 Wed  1 Chronicles 17
+29 Thu  1 Corinthians 5
+30 Fri  1 Chronicles 18
+31 Sat  1 Corinthians 6
+September
+1 Sun  Psalm 24
+2 Mon  1 Chronicles 19
+3 Tue  1 Corinthians 7
+4 Wed  1 Chronicles 20
+5 Thu  1 Corinthians 8
+6 Fri  1 Chronicles 21
+7 Sat  1 Corinthians 9
+8 Sun  Psalm 25
+9 Mon  1 Chronicles 22
+10 Tue  1 Corinthians 10
+11 Wed  1 Chronicles 23
+12 Thu  1 Corinthians 11
+13 Fri  1 Chronicles 24
+14 Sat  1 Corinthians 12
+15 Sun  Psalm 26
+16 Mon  1 Chronicles 25
+17 Tue  1 Corinthians 13
+18 Wed  1 Chronicles 26
+19 Thu  1 Corinthians 14
+20 Fri  1 Chronicles 27
+21 Sat  1 Corinthians 15
+22 Sun  Psalm 27
+23 Mon  1 Chronicles 28
+24 Tue  1 Corinthians 16
+25 Wed  1 Chronicles 29
+26 Thu  James 1
+27 Fri  Amos 1
+28 Sat  James 2
+29 Sun  Psalm 28
+30 Mon  Amos 2
+October
+1 Tue  James 3
+2 Wed  Amos 3
+3 Thu  James 4
+4 Fri  Amos 4
+5 Sat  James 5
+6 Sun  Psalm 29
+7 Mon  Amos 5
+8 Tue  Luke 1
+9 Wed  Amos 6
+10 Thu  Luke 2
+11 Fri  Amos 7
+12 Sat  Luke 3
+13 Sun  Psalm 30
+14 Mon  Amos 8
+15 Tue  Luke 4
+16 Wed  Amos 9
+17 Thu  Luke 5
+18 Fri  2 Chronicles 1
+19 Sat  Luke 6
+20 Sun  Psalm 31
+21 Mon  2 Chronicles 2
+22 Tue  Luke 7
+23 Wed  2 Chronicles 3
+24 Thu  Luke 8
+25 Fri  2 Chronicles 4
+26 Sat  Luke 9
+27 Sun  Psalm 32
+28 Mon  2 Chronicles 5
+29 Tue  Luke 10
+30 Wed  2 Chronicles 6
+31 Thu  Luke 11
+November
+1 Fri  2 Chronicles 7
+2 Sat  Luke 12
+3 Sun  Psalm 33
+4 Mon  2 Chronicles 8
+5 Tue  Luke 13
+6 Wed  2 Chronicles 9
+7 Thu  Luke 14
+8 Fri  2 Chronicles 10
+9 Sat  Luke 15
+10 Sun  Psalm 34
+11 Mon  2 Chronicles 11
+12 Tue  Luke 16
+13 Wed  2 Chronicles 12
+14 Thu  Luke 17
+15 Fri  2 Chronicles 13
+16 Sat  Luke 18
+17 Sun  Psalm 35
+18 Mon  2 Chronicles 14
+19 Tue  Luke 19
+20 Wed  2 Chronicles 15
+21 Thu  Luke 20
+22 Fri  2 Chronicles 16
+23 Sat  Luke 21
+24 Sun  Psalm 36
+25 Mon  2 Chronicles 17
+26 Tue  Luke 22
+27 Wed  2 Chronicles 18
+28 Thu  Luke 23
+29 Fri  2 Chronicles 19
+30 Sat  Luke 24
+December
+1 Sun  First Sunday of Advent John 1:1-18
+2 Mon  2 Chronicles 20
+3 Tue  2 Corinthians 1
+4 Wed  2 Chronicles 21
+5 Thu  2 Corinthians 2
+6 Fri  2 Chronicles 22
+7 Sat  2 Corinthians 3
+8 Sun  Second Sunday of Advent Luke 1:1-25
+9 Mon  2 Chronicles 23
+10 Tue  2 Corinthians 4
+11 Wed  2 Chronicles 24
+12 Thu  2 Corinthians 5
+13 Fri  2 Chronicles 25
+14 Sat  2 Corinthians 6
+15 Sun  Third Sunday of Advent Luke 1:26-56
+16 Mon  2 Chronicles 26
+17 Tue  2 Corinthians 7
+18 Wed  2 Chronicles 27
+19 Thu  2 Corinthians 8
+20 Fri  2 Chronicles 28
+21 Sat  2 Corinthians 9
+22 Sun  Fourth Sunday of Advent Luke 1:57-80
+23 Mon  2 Chronicles 29
+24 Tue  2 Corinthians 10
+25 Wed  Christmas Matthew 1:18-25, Luke 2:1-20
+26 Thu  2 Chronicles 30
+27 Fri  2 Corinthians 11
+28 Sat  Holy Innocents Matthew 2:13-23
+29 Sun  Psalm 37
+30 Mon  2 Chronicles 31
+31 Tue  2 Corinthians 12
+2025
+January
+1 Wed  2 Chronicles 32
+2 Thu  2 Corinthians 13
+3 Fri  2 Chronicles 33
+4 Sat  1 Peter 1
+5 Sun  Psalm 38
+6 Mon  Epiphany Matthew 2:1-12
+7 Tue  2 Chronicles 34
+8 Wed  1 Peter 2
+9 Thu  2 Chronicles 35
+10 Fri  1 Peter 3
+11 Sat  2 Chronicles 36
+12 Sun  Psalm 39
+13 Mon  1 Peter 4
+14 Tue  Obadiah 1
+15 Wed  1 Peter 5
+16 Thu  Ezra 1
+17 Fri  John 1
+18 Sat  Ezra 2
+19 Sun  Psalm 40
+20 Mon  John 2
+21 Tue  Ezra 3
+22 Wed  John 3
+23 Thu  Ezra 4
+24 Fri  John 4
+25 Sat  Ezra 5
+26 Sun  Psalm 41
+27 Mon  John 5
+28 Tue  Ezra 6
+29 Wed  John 6
+30 Thu  Ezra 7
+31 Fri  John 7
+February
+1 Sat  Ezra 8
+2 Sun  The Presentation Luke 2:21-25
+3 Mon  John 8
+4 Tue  Ezra 9
+5 Wed  John 9
+6 Thu  Ezra 10
+7 Fri  John 10
+8 Sat  Jonah 1
+9 Sun  Psalm 42
+10 Mon  John 11
+11 Tue  Jonah 2
+12 Wed  John 12
+13 Thu  Jonah 3
+14 Fri  John 13
+15 Sat  Jonah 4
+16 Sun  Psalm 43
+17 Mon  John 14
+18 Tue  Nehemiah 1
+19 Wed  John 15
+20 Thu  Nehemiah 2
+21 Fri  John 16
+22 Sat  Nehemiah 3
+23 Sun  Psalm 44
+24 Mon  John 17
+25 Tue  Nehemiah 4
+26 Wed  John 18
+27 Thu  Nehemiah 5
+28 Fri  John 19
+March
+1 Sat  Nehemiah 6
+2 Sun  Psalm 45
+3 Mon  John 20
+4 Tue  Nehemiah 7
+5 Wed  Ash Wednesday Matthew 3:13-4:11
+6 Thu  John 21
+7 Fri  Nehemiah 8
+8 Sat  Galatians 1
+9 Sun  Psalm 46
+10 Mon  Nehemiah 9
+11 Tue  Galatians 2
+12 Wed  Nehemiah 10
+13 Thu  Galatians 3
+14 Fri  Nehemiah 11
+15 Sat  Galatians 4
+16 Sun  Psalm 47
+17 Mon  Nehemiah 12
+18 Tue  Galatians 5
+19 Wed  Nehemiah 13
+20 Thu  Galatians 6
+21 Fri  Micah 1
+22 Sat  2 Peter 1
+23 Sun  Psalm 48
+24 Mon  Micah 2
+25 Tue  The Annunciation Luke 1:26-38
+26 Wed  2 Peter 2
+27 Thu  Micah 3
+28 Fri  2 Peter 3
+29 Sat  Micah 4
+30 Sun  Psalm 49
+31 Mon  Ephesians 1
+April
+1 Tue  Micah 5
+2 Wed  Ephesians 2
+3 Thu  Micah 6
+4 Fri  Ephesians 3
+5 Sat  Micah 7
+6 Sun  Psalm 50
+7 Mon  Ephesians 4
+8 Tue  Esther 1
+9 Wed  Ephesians 5
+10 Thu  Esther 2
+11 Fri  Ephesians 6
+12 Sat  Esther 3
+13 Sun  Palm Sunday Psalm 24, Zechariah 9, Matthew 21:1-9, John 12:12-19
+14 Mon  Monday of Holy Week John 12:20-13:38
+15 Tue  Tuesday of Holy Week Mark 14:1-11
+16 Wed  Wednesday of Holy Week Luke 22:1-6
+17 Thu  Maundy Thursday Mark 14:12-72
+18 Fri  Good Friday Mark 15:1-41
+19 Sat  Holy Saturday Mark 15:42-47
+20 Sun  Easter Mark 16:1-8
+21 Mon  1 John 1
+22 Tue  Esther 4
+23 Wed  1 John 2
+24 Thu  Esther 5
+25 Fri  1 John 3
+26 Sat  Esther 6
+27 Sun  Psalm 51
+28 Mon  1 John 4
+29 Tue  Esther 7
+30 Wed  1 John 5
+May
+1 Thu  Esther 8
+2 Fri  Philippians 1
+3 Sat  Esther 9
+4 Sun  Psalm 52
+5 Mon  Philippians 2
+6 Tue  Esther 10
+7 Wed  Philippians 3
+8 Thu  Nahum 1
+9 Fri  Philippians 4
+10 Sat  Nahum 2
+11 Sun  Psalm 53
+12 Mon  2 John 1
+13 Tue  Nahum 3
+14 Wed  Colossians 1
+15 Thu  Habakkuk 1
+16 Fri  Colossians 2
+17 Sat  Habakkuk 2
+18 Sun  Psalm 54
+19 Mon  Colossians 3
+20 Tue  Habakkuk 3
+21 Wed  Colossians 4
+22 Thu  Zephaniah 1
+23 Fri  3 John 1
+24 Sat  Zephaniah 2
+25 Sun  Psalm 55
+26 Mon  1 Thessalonians 1
+27 Tue  Zephaniah 3
+28 Wed  1 Thessalonians 2
+29 Thu  Ascension Day Matthew 28:16-20
+30 Fri  Haggai 1
+31 Sat  1 Thessalonians 3
+June
+1 Sun  Psalm 56
+2 Mon  Haggai 2
+3 Tue  1 Thessalonians 4
+4 Wed  Zechariah 1
+5 Thu  1 Thessalonians 5
+6 Fri  Zechariah 2
+7 Sat  Jude 1
+8 Sun  Pentecost Acts 2
+9 Mon  Zechariah 3
+10 Tue  2 Thessalonians 1
+11 Wed  Zechariah 4
+12 Thu  2 Thessalonians 2
+13 Fri  Zechariah 5
+14 Sat  2 Thessalonians 3
+15 Sun  Psalm 57
+16 Mon  Zechariah 6
+17 Tue  1 Timothy 1
+18 Wed  Zechariah 7
+19 Thu  1 Timothy 2
+20 Fri  Zechariah 8
+21 Sat  1 Timothy 3
+22 Sun  Psalm 58
+23 Mon  Zechariah 9
+24 Tue  1 Timothy 4
+25 Wed  Zechariah 10
+26 Thu  1 Timothy 5
+27 Fri  Zechariah 11
+28 Sat  1 Timothy 6
+29 Sun  Psalm 59
+30 Mon  Zechariah 12
+July
+1 Tue  2 Timothy 1
+2 Wed  Zechariah 13
+3 Thu  2 Timothy 2
+4 Fri  Zechariah 14
+5 Sat  2 Timothy 3
+6 Sun  Psalm 60
+7 Mon  Malachi 1
+8 Tue  2 Timothy 4
+9 Wed  Malachi 2
+10 Thu  Titus 1
+11 Fri  Malachi 3
+12 Sat  Titus 2
+13 Sun  Psalm 61
+14 Mon  Malachi 4
+15 Tue  Titus 3
+16 Wed  Philemon 1
